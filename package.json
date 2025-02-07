@@ -1,0 +1,24 @@
+{
+  "name": "beatles-2.0",
+  "version": "1.0.0",
+  "description": "Introducing Beatles 2.0 – the revamped version of the classic, now enhanced with Sass for better styling and advanced CSS techniques for a modern, polished, and responsive design. With features like Sass variables, mixins, Flexbox, CSS Grid, and smooth animations, the project is taken to a whole new level of performance and style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumayaakter533/Beatles-2.0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumayaakter533/Beatles-2.0/issues"
+  },
+  "homepage": "https://github.com/sumayaakter533/Beatles-2.0#readme",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-sass": "^6.0.0",
+    "sass": "^1.84.0"
+  }
+}
