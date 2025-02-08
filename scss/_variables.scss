@@ -1,0 +1,23 @@
+// TODO: Adding SASS Variables
+
+// ANCHOR: Google fonts
+$oswald: "Oswald", sans-serif;
+$open-sans: "Open Sans", sans-serif;
+
+// ANCHOR: Theme colors
+$primary: #5bc5f4;
+$secondary: #0872b9;
+$light: #f1f1f1;
+$white: #ffffff;
+$medium-dark: #555555;
+$overlay-dark: rgba(0, 0, 0, 0.6);
+
+// ANCHOR: Borders & Border-Radius
+$base-border-thickness: 1px solid;
+$base-border-radius: 50%;
+
+// ANCHOR: Box-Shadow
+$base-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+$medium-box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.26);
+
+
