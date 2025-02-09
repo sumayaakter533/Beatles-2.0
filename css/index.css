@@ -40,7 +40,7 @@ img {
 }
 .header_part .header_text p {
   color: #f1f1f1;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 32px;
@@ -53,7 +53,7 @@ img {
 .header_part .header_icon a {
   margin-left: 25px;
   color: #f1f1f1;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 32px;
   transition: all linear 0.4s;
   -moz-transition: all linear 0.4s;
@@ -95,7 +95,7 @@ img {
 
 .main_menu ul li a {
   color: #555555;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   font-family: "Myriad Pro";
   margin-left: 15px;
@@ -142,7 +142,7 @@ img {
 
 .banner_text h2 {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 400;
   font-family: "Oswald", sans-serif;
   margin-bottom: -10px;
@@ -159,7 +159,7 @@ img {
 
 .banner_text p {
   color: #ffffff;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 24px;
@@ -171,7 +171,7 @@ img {
   margin-top: 30px;
   margin-left: 15px;
   color: #ffffff;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -224,7 +224,7 @@ img {
 
 .about_text p {
   color: #0872b9;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 24px;
@@ -265,7 +265,7 @@ img {
 
 .service_text h4 {
   color: #555555;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -273,7 +273,7 @@ img {
 
 .service_text p {
   color: #0872b9;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 24px;
@@ -522,7 +522,7 @@ img {
 
 .team_text h4 {
   color: #555555;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -536,7 +536,7 @@ img {
 
 .team_text p {
   color: #0872b9;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   font-family: "Oswald", sans-serif;
 }
@@ -578,7 +578,7 @@ img {
 
 .testi_text h4 {
   color: #555555;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -586,19 +586,19 @@ img {
 
 .testi_text i {
   color: #5bc5f4;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
 
 .testi_text h5 {
   color: #0872b9;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   font-family: "Oswald", sans-serif;
 }
 
 .testi_text p {
   color: #0872b9;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: "Oswald", sans-serif;
   line-height: 24px;
@@ -656,7 +656,7 @@ img {
 
 .footer_logo p {
   color: #f1f1f1;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 24px;
@@ -670,7 +670,7 @@ img {
 
 .footer_contact h4 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   padding-bottom: 45px;
@@ -678,7 +678,7 @@ img {
 
 .footer_contact p {
   color: #f1f1f1;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 24px;
@@ -700,7 +700,7 @@ img {
 
 .footer_link h4 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   padding-bottom: 30px;
@@ -713,7 +713,7 @@ img {
 
 .footer_link ul li a {
   color: #ffffff;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
   line-height: 36px;
@@ -730,7 +730,7 @@ img {
 
 .footer_flicker h4 {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
   padding-bottom: 45px;
@@ -756,7 +756,7 @@ img {
 
 .footer_bottom p {
   color: #f1f1f1;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   font-family: "Oswald", sans-serif;
 }

@@ -1,8 +1,11 @@
+@use 'sass:map';
+@use 'sass:math';
+
 // TODO: Adding SASS Variables
 
 // ANCHOR: Google fonts
-$oswald: "Oswald", sans-serif;
-$open-sans: "Open Sans", sans-serif;
+$oswald: 'Oswald', sans-serif;
+$open-sans: 'Open Sans', sans-serif;
 
 // ANCHOR: Theme colors
 $primary: #5bc5f4;
@@ -12,6 +15,32 @@ $white: #ffffff;
 $medium-dark: #555555;
 $overlay-dark: rgba(0, 0, 0, 0.6);
 
+// ANCHOR: Color plates
+$colors: (
+    'primary': $primary,
+    'secondary': $secondary,
+    'light': $light,
+    'white': $white,
+    'medium-dark': $medium-dark,
+    'overly-dark': $overlay-dark,
+    'accent': #ff4081,
+    'background': #f4f4f4,
+    'highlight': #ffeb3b,
+    'error': #f44336,
+    'success': #4caf50,
+    'warning': #ff9800,
+    'btn-danger': #d32f2f,
+    'btn-primary': #1976d2,
+    'btn-success': #388e3c,
+);
+
+// TODO: SASS map()
+// @debug map.get($colors, 'error');
+// @debug map.has-key($colors, 'btn-danger');
+// @debug map.has-key($colors, 'tertiary');
+// @debug map.remove($colors, 'btn-success');
+// @debug map.merge($colors, ("pink": #ffc0cb));
+
 // ANCHOR: Borders & Border-Radius
 $base-border-thickness: 1px solid;
 $base-border-radius: 50%;
@@ -20,4 +49,10 @@ $base-border-radius: 50%;
 $base-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 $medium-box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.26);
 
-
+// ANCHOR: Font-sizes
+$base-font-size: 1rem; // 16px
+$font-size-xm: $base-font-size * 0.8125; // 13px
+$font-size-sm: $base-font-size * 0.875; // 14px
+$font-size-lg: $base-font-size * 1.5; // 24px
+$font-size-xl: $base-font-size * 1.875; // 30px
+$font-size-xxl: $base-font-size * 2.5; // 40px

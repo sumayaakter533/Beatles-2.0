@@ -1,3 +1,5 @@
+@use 'sass:map';
+
 // ANCHOR: Variable & Functions
 @use './variables' as *;
 
@@ -7,6 +9,7 @@
 // ANCHOR: Colors
 
 // ANCHOR: Components (button, card, navbar)
+@use 'components/card';
 
 // ANCHOR: Utilities (margin, padding, opacity)
 
@@ -23,7 +26,7 @@
 
         p {
             color: $light;
-            font-size: 14px;
+            font-size: $font-size-sm;
             font-weight: 400;
             font-family: $open-sans;
             line-height: 32px;
@@ -38,7 +41,7 @@
         a {
             margin-left: 25px;
             color: $light;
-            font-size: 14px;
+            font-size: $font-size-sm;
             line-height: 32px;
             transition: all linear 0.4s;
             -moz-transition: all linear 0.4s;
@@ -84,7 +87,7 @@
 
 .main_menu ul li a {
     color: $medium-dark;
-    font-size: 14px;
+    font-size: $font-size-sm;
     font-weight: 400;
     font-family: 'Myriad Pro';
     margin-left: 15px;
@@ -132,7 +135,7 @@
 
 .banner_text h2 {
     color: $white;
-    font-size: 30px;
+    font-size: $font-size-xl;
     font-weight: 400;
     font-family: $oswald;
     margin-bottom: -10px;
@@ -149,7 +152,7 @@
 
 .banner_text p {
     color: $white;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 400;
     font-family: $open-sans;
     line-height: 24px;
@@ -161,7 +164,7 @@
     margin-top: 30px;
     margin-left: 15px;
     color: $white;
-    font-size: 14px;
+    font-size: $font-size-sm;
     font-weight: 500;
     font-family: $oswald;
     text-transform: uppercase;
@@ -215,7 +218,7 @@
 
 .about_text p {
     color: $secondary;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 400;
     font-family: $open-sans;
     line-height: 24px;
@@ -257,7 +260,7 @@
 
 .service_text h4 {
     color: $medium-dark;
-    font-size: 16px;
+    font-size: $base-font-size;
     font-weight: 500;
     font-family: $oswald;
     text-transform: uppercase;
@@ -265,7 +268,7 @@
 
 .service_text p {
     color: $secondary;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 400;
     font-family: $open-sans;
     line-height: 24px;
@@ -518,7 +521,7 @@
 
 .team_text h4 {
     color: $medium-dark;
-    font-size: 16px;
+    font-size: $base-font-size;
     font-weight: 500;
     font-family: $oswald;
     text-transform: uppercase;
@@ -532,7 +535,7 @@
 
 .team_text p {
     color: $secondary;
-    font-size: 14px;
+    font-size: $font-size-sm;
     font-weight: 400;
     font-family: $oswald;
 }
@@ -575,7 +578,7 @@
 
 .testi_text h4 {
     color: $medium-dark;
-    font-size: 16px;
+    font-size: $base-font-size;
     font-weight: 500;
     font-family: $oswald;
     text-transform: uppercase;
@@ -583,19 +586,19 @@
 
 .testi_text i {
     color: $primary;
-    font-size: 13px;
+    font-size: $font-size-xm;
 }
 
 .testi_text h5 {
     color: $secondary;
-    font-size: 14px;
+    font-size: $font-size-sm;
     font-weight: 400;
     font-family: $oswald;
 }
 
 .testi_text p {
     color: $secondary;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 400;
     font-family: $oswald;
     line-height: 24px;
@@ -654,7 +657,7 @@
 
 .footer_logo p {
     color: $light;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 400;
     font-family: $open-sans;
     line-height: 24px;
@@ -668,7 +671,7 @@
 
 .footer_contact h4 {
     color: $white;
-    font-size: 16px;
+    font-size: $base-font-size;
     font-weight: 500;
     font-family: $oswald;
     padding-bottom: 45px;
@@ -676,7 +679,7 @@
 
 .footer_contact p {
     color: $light;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 400;
     font-family: $open-sans;
     line-height: 24px;
@@ -698,7 +701,7 @@
 
 .footer_link h4 {
     color: $white;
-    font-size: 16px;
+    font-size: $base-font-size;
     font-weight: 500;
     font-family: $oswald;
     padding-bottom: 30px;
@@ -711,7 +714,7 @@
 
 .footer_link ul li a {
     color: $white;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 400;
     font-family: $open-sans;
     line-height: 36px;
@@ -728,7 +731,7 @@
 
 .footer_flicker h4 {
     color: $white;
-    font-size: 16px;
+    font-size: $base-font-size;
     font-weight: 500;
     font-family: $oswald;
     padding-bottom: 45px;
@@ -754,7 +757,7 @@
 
 .footer_bottom p {
     color: $light;
-    font-size: 13px;
+    font-size: $font-size-xm;
     font-weight: 500;
     font-family: $oswald;
 }
