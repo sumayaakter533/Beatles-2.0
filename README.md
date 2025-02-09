@@ -22,3 +22,39 @@ Introducing Beatles 2.0 – the revamped version of the classic, now enhanced wi
    2. $base-border-radius
 
 ---
+
+### SASS Utilities
+
+```scss
+'values': (
+            '0': 0,
+            '1': math.div($base-padding, 8),
+            // 2px
+            '2': math.div($base-padding, 4),
+            // 4px
+            '3': math.div($base-padding, 2),
+            // 8px
+            '4': $base-padding,
+            // 16px
+            '5': $base-padding * 1.25,
+            // 20px
+            '6': $base-padding * 1.5,
+            // 24px
+            '7': $base-padding * 1.75,
+            // 28px
+            '8': $base-padding * 2,
+            // 32px
+            '9': $base-padding * 2.5,
+            // 40px
+            '10': $base-padding * 3,
+            // 48px
+            '11': $base-padding * 3.5,
+            // 56px
+            '12': $base-padding * 4,
+            // 64px
+            '14': $base-padding * 5,
+            // 80px
+            '16': $base-padding * 6,
+            // 96px
+        ),
+```

@@ -21,6 +21,7 @@ $colors: (
     'secondary': $secondary,
     'light': $light,
     'white': $white,
+    'black': #000000,
     'medium-dark': $medium-dark,
     'overly-dark': $overlay-dark,
     'accent': #ff4081,
@@ -41,9 +42,13 @@ $colors: (
 // @debug map.remove($colors, 'btn-success');
 // @debug map.merge($colors, ("pink": #ffc0cb));
 
+// ANCHOR: Padding & Margin
+$base-padding: 1rem;
+$base-margin: 1rem;
+
 // ANCHOR: Borders & Border-Radius
-$base-border-thickness: 1px solid;
-$base-border-radius: 50%;
+$base-border-thickness: 1px;
+$base-border-radius: 1rem;
 
 // ANCHOR: Box-Shadow
 $base-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
@@ -51,8 +56,16 @@ $medium-box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.26);
 
 // ANCHOR: Font-sizes
 $base-font-size: 1rem; // 16px
-$font-size-xm: $base-font-size * 0.8125; // 13px
+
+$font-size-xm: $base-font-size * 0.75; // 12px
 $font-size-sm: $base-font-size * 0.875; // 14px
-$font-size-lg: $base-font-size * 1.5; // 24px
-$font-size-xl: $base-font-size * 1.875; // 30px
-$font-size-xxl: $base-font-size * 2.5; // 40px
+$font-size-base: $base-font-size; // 16px (base)
+$font-size-lg: $base-font-size * 1.25; // 20px
+$font-size-xl: $base-font-size * 1.5; // 24px
+$font-size-xxl: $base-font-size * 1.75; // 28px
+$font-size-3xl: $base-font-size * 2; // 32px
+$font-size-4xl: $base-font-size * 2.25; // 36px
+$font-size-5xl: $base-font-size * 2.5; // 40px
+$font-size-6xl: $base-font-size * 3; // 48px
+$font-size-7xl: $base-font-size * 3.5; // 56px
+$font-size-8xl: $base-font-size * 4; // 64px

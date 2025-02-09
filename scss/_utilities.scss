@@ -1,0 +1,118 @@
+@use 'sass:math';
+@use 'sass:map';
+@use 'variables' as *;
+
+$utilities: (
+    'padding': (
+        'prefix': 'p',
+        'values': (
+            '0': 0,
+            '1': math.div($base-padding, 8),
+            '2': math.div($base-padding, 4),
+            '3': math.div($base-padding, 2),
+            '4': $base-padding * 0.75,
+            '5': $base-padding,
+            '6': $base-padding * 1.25,
+            '7': $base-padding * 1.5,
+            '8': $base-padding * 1.75,
+            '9': $base-padding * 2,
+            '10': $base-padding * 2.5,
+            '11': $base-padding * 3,
+            '12': $base-padding * 3.5,
+            '14': $base-padding * 4,
+            '16': $base-padding * 5,
+            '18': $base-padding * 6,
+        ),
+    ),
+
+    'margin': (
+        'prefix': 'm',
+        'values': (
+            '0': 0,
+            '1': math.div($base-margin, 8),
+            '2': math.div($base-margin, 4),
+            '3': math.div($base-margin, 2),
+            '4': $base-margin,
+            '5': $base-margin * 1.25,
+            '6': $base-margin * 1.5,
+            '7': $base-margin * 1.75,
+            '8': $base-margin * 2,
+            '9': $base-margin * 2.5,
+            '10': $base-margin * 3,
+            '11': $base-margin * 3.5,
+            '12': $base-margin * 4,
+            '14': $base-margin * 5,
+            '16': $base-margin * 6,
+        ),
+    ),
+
+    'opacity': (
+        'prefix': 'o',
+        'values': (
+            '10': 0.1,
+            '20': 0.2,
+            '30': 0.3,
+            '40': 0.4,
+            '50': 0.5,
+            '60': 0.6,
+            '70': 0.7,
+            '80': 0.8,
+            '90': 0.9,
+            '100': 1,
+        ),
+    ),
+
+    'font-size': (
+        'prefix': 'font',
+        // Prefix for font-size
+        'values': (
+                'xm': $font-size-xm,
+                'sm': $font-size-sm,
+                'base': $font-size-base,
+                'lg': $font-size-lg,
+                'xl': $font-size-xl,
+                'xxl': $font-size-xxl,
+                '3xl': $font-size-3xl,
+                '4xl': $font-size-4xl,
+                '5xl': $font-size-5xl,
+                '6xl': $font-size-6xl,
+                '7xl': $font-size-7xl,
+                '8xl': $font-size-8xl,
+            ),
+    ),
+);
+
+@each $property, $map in $utilities {
+    $prefix: map.get($map, 'prefix');
+    $values: map.get($map, 'values');
+
+    @each $k, $v in $values {
+        @if ($property == 'font-size' or $property == 'opacity') {
+            // Only generate base class for font-size and opacity without direction
+            .#{$prefix}-#{$k} {
+                #{$property}: $v;
+            }
+        } @else {
+            .#{$prefix}-#{$k} {
+                // General case for padding, margin, etc.
+                #{$property}: $v;
+            }
+            .#{$prefix}t-#{$k} {
+                // Top specific class
+                #{$property}-top: $v;
+            }
+            .#{$prefix}b-#{$k} {
+                // Bottom specific class
+                #{$property}-bottom: $v;
+            }
+            .#{$prefix}l-#{$k} {
+                // Left specific class
+                #{$property}-left: $v;
+            }
+            .#{$prefix}r-#{$k} {
+                // Right specific class
+                #{$property}-right: $v;
+            }
+        }
+    }
+}

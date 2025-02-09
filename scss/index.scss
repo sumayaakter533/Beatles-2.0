@@ -1,17 +1,21 @@
 @use 'sass:map';
 
 // ANCHOR: Variable & Functions
+@use './functions' as *;
 @use './variables' as *;
 
 // ANCHOR: Base & Layout
 @use './base' as *;
 
 // ANCHOR: Colors
+@use './colors' as *;
 
 // ANCHOR: Components (button, card, navbar)
 @use 'components/card';
+@use 'components/button';
 
 // ANCHOR: Utilities (margin, padding, opacity)
+@use 'utilities' as *;
 
 /*---------------------------- END OF SECTION ----------------------------*/
 
