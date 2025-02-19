@@ -1,5374 +1,5399 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  outline: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
 }
 
 a {
-  text-decoration: none;
-  display: inline-block;
+    text-decoration: none;
+    display: inline-block;
 }
 
 ul,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 img {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 .clr {
-  clear: both;
+    clear: both;
 }
 
 .container {
-  max-width: 960px;
-  margin: 0 auto;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .text-primary {
-  color: #5bc5f4;
+    color: #5bc5f4;
 }
 
 .text-hover-primary:hover {
-  color: #5bc5f4;
+    color: #5bc5f4;
 }
 
 .bg-primary {
-  background-color: #5bc5f4;
+    background-color: #5bc5f4;
 }
 
 .text-primary-dark-1 {
-  color: rgb(81.9, 177.3, 219.6);
+    color: rgb(81.9, 177.3, 219.6);
 }
 
 .text-hover-primary-dark-1:hover {
-  color: rgb(81.9, 177.3, 219.6);
+    color: rgb(81.9, 177.3, 219.6);
 }
 
 .bg-primary-dark-1 {
-  background-color: rgb(81.9, 177.3, 219.6);
+    background-color: rgb(81.9, 177.3, 219.6);
 }
 
 .text-primary-dark-2 {
-  color: rgb(72.8, 157.6, 195.2);
+    color: rgb(72.8, 157.6, 195.2);
 }
 
 .text-hover-primary-dark-2:hover {
-  color: rgb(72.8, 157.6, 195.2);
+    color: rgb(72.8, 157.6, 195.2);
 }
 
 .bg-primary-dark-2 {
-  background-color: rgb(72.8, 157.6, 195.2);
+    background-color: rgb(72.8, 157.6, 195.2);
 }
 
 .text-primary-dark-3 {
-  color: rgb(63.7, 137.9, 170.8);
+    color: rgb(63.7, 137.9, 170.8);
 }
 
 .text-hover-primary-dark-3:hover {
-  color: rgb(63.7, 137.9, 170.8);
+    color: rgb(63.7, 137.9, 170.8);
 }
 
 .bg-primary-dark-3 {
-  background-color: rgb(63.7, 137.9, 170.8);
+    background-color: rgb(63.7, 137.9, 170.8);
 }
 
 .text-primary-dark-4 {
-  color: rgb(54.6, 118.2, 146.4);
+    color: rgb(54.6, 118.2, 146.4);
 }
 
 .text-hover-primary-dark-4:hover {
-  color: rgb(54.6, 118.2, 146.4);
+    color: rgb(54.6, 118.2, 146.4);
 }
 
 .bg-primary-dark-4 {
-  background-color: rgb(54.6, 118.2, 146.4);
+    background-color: rgb(54.6, 118.2, 146.4);
 }
 
 .text-primary-dark-5 {
-  color: rgb(45.5, 98.5, 122);
+    color: rgb(45.5, 98.5, 122);
 }
 
 .text-hover-primary-dark-5:hover {
-  color: rgb(45.5, 98.5, 122);
+    color: rgb(45.5, 98.5, 122);
 }
 
 .bg-primary-dark-5 {
-  background-color: rgb(45.5, 98.5, 122);
+    background-color: rgb(45.5, 98.5, 122);
 }
 
 .text-primary-dark-6 {
-  color: rgb(36.4, 78.8, 97.6);
+    color: rgb(36.4, 78.8, 97.6);
 }
 
 .text-hover-primary-dark-6:hover {
-  color: rgb(36.4, 78.8, 97.6);
+    color: rgb(36.4, 78.8, 97.6);
 }
 
 .bg-primary-dark-6 {
-  background-color: rgb(36.4, 78.8, 97.6);
+    background-color: rgb(36.4, 78.8, 97.6);
 }
 
 .text-primary-dark-7 {
-  color: rgb(27.3, 59.1, 73.2);
+    color: rgb(27.3, 59.1, 73.2);
 }
 
 .text-hover-primary-dark-7:hover {
-  color: rgb(27.3, 59.1, 73.2);
+    color: rgb(27.3, 59.1, 73.2);
 }
 
 .bg-primary-dark-7 {
-  background-color: rgb(27.3, 59.1, 73.2);
+    background-color: rgb(27.3, 59.1, 73.2);
 }
 
 .text-primary-dark-8 {
-  color: rgb(18.2, 39.4, 48.8);
+    color: rgb(18.2, 39.4, 48.8);
 }
 
 .text-hover-primary-dark-8:hover {
-  color: rgb(18.2, 39.4, 48.8);
+    color: rgb(18.2, 39.4, 48.8);
 }
 
 .bg-primary-dark-8 {
-  background-color: rgb(18.2, 39.4, 48.8);
+    background-color: rgb(18.2, 39.4, 48.8);
 }
 
 .text-primary-dark-9 {
-  color: rgb(9.1, 19.7, 24.4);
+    color: rgb(9.1, 19.7, 24.4);
 }
 
 .text-hover-primary-dark-9:hover {
-  color: rgb(9.1, 19.7, 24.4);
+    color: rgb(9.1, 19.7, 24.4);
 }
 
 .bg-primary-dark-9 {
-  background-color: rgb(9.1, 19.7, 24.4);
+    background-color: rgb(9.1, 19.7, 24.4);
 }
 
 .text-primary-light-1 {
-  color: rgb(107.4, 202.8, 245.1);
+    color: rgb(107.4, 202.8, 245.1);
 }
 
 .text-hover-primary-light-1:hover {
-  color: rgb(107.4, 202.8, 245.1);
+    color: rgb(107.4, 202.8, 245.1);
 }
 
 .bg-primary-light-1 {
-  background-color: rgb(107.4, 202.8, 245.1);
+    background-color: rgb(107.4, 202.8, 245.1);
 }
 
 .text-primary-light-2 {
-  color: rgb(123.8, 208.6, 246.2);
+    color: rgb(123.8, 208.6, 246.2);
 }
 
 .text-hover-primary-light-2:hover {
-  color: rgb(123.8, 208.6, 246.2);
+    color: rgb(123.8, 208.6, 246.2);
 }
 
 .bg-primary-light-2 {
-  background-color: rgb(123.8, 208.6, 246.2);
+    background-color: rgb(123.8, 208.6, 246.2);
 }
 
 .text-primary-light-3 {
-  color: rgb(140.2, 214.4, 247.3);
+    color: rgb(140.2, 214.4, 247.3);
 }
 
 .text-hover-primary-light-3:hover {
-  color: rgb(140.2, 214.4, 247.3);
+    color: rgb(140.2, 214.4, 247.3);
 }
 
 .bg-primary-light-3 {
-  background-color: rgb(140.2, 214.4, 247.3);
+    background-color: rgb(140.2, 214.4, 247.3);
 }
 
 .text-primary-light-4 {
-  color: rgb(156.6, 220.2, 248.4);
+    color: rgb(156.6, 220.2, 248.4);
 }
 
 .text-hover-primary-light-4:hover {
-  color: rgb(156.6, 220.2, 248.4);
+    color: rgb(156.6, 220.2, 248.4);
 }
 
 .bg-primary-light-4 {
-  background-color: rgb(156.6, 220.2, 248.4);
+    background-color: rgb(156.6, 220.2, 248.4);
 }
 
 .text-primary-light-5 {
-  color: rgb(173, 226, 249.5);
+    color: rgb(173, 226, 249.5);
 }
 
 .text-hover-primary-light-5:hover {
-  color: rgb(173, 226, 249.5);
+    color: rgb(173, 226, 249.5);
 }
 
 .bg-primary-light-5 {
-  background-color: rgb(173, 226, 249.5);
+    background-color: rgb(173, 226, 249.5);
 }
 
 .text-primary-light-6 {
-  color: rgb(189.4, 231.8, 250.6);
+    color: rgb(189.4, 231.8, 250.6);
 }
 
 .text-hover-primary-light-6:hover {
-  color: rgb(189.4, 231.8, 250.6);
+    color: rgb(189.4, 231.8, 250.6);
 }
 
 .bg-primary-light-6 {
-  background-color: rgb(189.4, 231.8, 250.6);
+    background-color: rgb(189.4, 231.8, 250.6);
 }
 
 .text-primary-light-7 {
-  color: rgb(205.8, 237.6, 251.7);
+    color: rgb(205.8, 237.6, 251.7);
 }
 
 .text-hover-primary-light-7:hover {
-  color: rgb(205.8, 237.6, 251.7);
+    color: rgb(205.8, 237.6, 251.7);
 }
 
 .bg-primary-light-7 {
-  background-color: rgb(205.8, 237.6, 251.7);
+    background-color: rgb(205.8, 237.6, 251.7);
 }
 
 .text-primary-light-8 {
-  color: rgb(222.2, 243.4, 252.8);
+    color: rgb(222.2, 243.4, 252.8);
 }
 
 .text-hover-primary-light-8:hover {
-  color: rgb(222.2, 243.4, 252.8);
+    color: rgb(222.2, 243.4, 252.8);
 }
 
 .bg-primary-light-8 {
-  background-color: rgb(222.2, 243.4, 252.8);
+    background-color: rgb(222.2, 243.4, 252.8);
 }
 
 .text-primary-light-9 {
-  color: rgb(238.6, 249.2, 253.9);
+    color: rgb(238.6, 249.2, 253.9);
 }
 
 .text-hover-primary-light-9:hover {
-  color: rgb(238.6, 249.2, 253.9);
+    color: rgb(238.6, 249.2, 253.9);
 }
 
 .bg-primary-light-9 {
-  background-color: rgb(238.6, 249.2, 253.9);
+    background-color: rgb(238.6, 249.2, 253.9);
 }
 
 .text-secondary {
-  color: #0872b9;
+    color: #0872b9;
 }
 
 .text-hover-secondary:hover {
-  color: #0872b9;
+    color: #0872b9;
 }
 
 .bg-secondary {
-  background-color: #0872b9;
+    background-color: #0872b9;
 }
 
 .text-secondary-dark-1 {
-  color: rgb(7.2, 102.6, 166.5);
+    color: rgb(7.2, 102.6, 166.5);
 }
 
 .text-hover-secondary-dark-1:hover {
-  color: rgb(7.2, 102.6, 166.5);
+    color: rgb(7.2, 102.6, 166.5);
 }
 
 .bg-secondary-dark-1 {
-  background-color: rgb(7.2, 102.6, 166.5);
+    background-color: rgb(7.2, 102.6, 166.5);
 }
 
 .text-secondary-dark-2 {
-  color: rgb(6.4, 91.2, 148);
+    color: rgb(6.4, 91.2, 148);
 }
 
 .text-hover-secondary-dark-2:hover {
-  color: rgb(6.4, 91.2, 148);
+    color: rgb(6.4, 91.2, 148);
 }
 
 .bg-secondary-dark-2 {
-  background-color: rgb(6.4, 91.2, 148);
+    background-color: rgb(6.4, 91.2, 148);
 }
 
 .text-secondary-dark-3 {
-  color: rgb(5.6, 79.8, 129.5);
+    color: rgb(5.6, 79.8, 129.5);
 }
 
 .text-hover-secondary-dark-3:hover {
-  color: rgb(5.6, 79.8, 129.5);
+    color: rgb(5.6, 79.8, 129.5);
 }
 
 .bg-secondary-dark-3 {
-  background-color: rgb(5.6, 79.8, 129.5);
+    background-color: rgb(5.6, 79.8, 129.5);
 }
 
 .text-secondary-dark-4 {
-  color: rgb(4.8, 68.4, 111);
+    color: rgb(4.8, 68.4, 111);
 }
 
 .text-hover-secondary-dark-4:hover {
-  color: rgb(4.8, 68.4, 111);
+    color: rgb(4.8, 68.4, 111);
 }
 
 .bg-secondary-dark-4 {
-  background-color: rgb(4.8, 68.4, 111);
+    background-color: rgb(4.8, 68.4, 111);
 }
 
 .text-secondary-dark-5 {
-  color: rgb(4, 57, 92.5);
+    color: rgb(4, 57, 92.5);
 }
 
 .text-hover-secondary-dark-5:hover {
-  color: rgb(4, 57, 92.5);
+    color: rgb(4, 57, 92.5);
 }
 
 .bg-secondary-dark-5 {
-  background-color: rgb(4, 57, 92.5);
+    background-color: rgb(4, 57, 92.5);
 }
 
 .text-secondary-dark-6 {
-  color: rgb(3.2, 45.6, 74);
+    color: rgb(3.2, 45.6, 74);
 }
 
 .text-hover-secondary-dark-6:hover {
-  color: rgb(3.2, 45.6, 74);
+    color: rgb(3.2, 45.6, 74);
 }
 
 .bg-secondary-dark-6 {
-  background-color: rgb(3.2, 45.6, 74);
+    background-color: rgb(3.2, 45.6, 74);
 }
 
 .text-secondary-dark-7 {
-  color: rgb(2.4, 34.2, 55.5);
+    color: rgb(2.4, 34.2, 55.5);
 }
 
 .text-hover-secondary-dark-7:hover {
-  color: rgb(2.4, 34.2, 55.5);
+    color: rgb(2.4, 34.2, 55.5);
 }
 
 .bg-secondary-dark-7 {
-  background-color: rgb(2.4, 34.2, 55.5);
+    background-color: rgb(2.4, 34.2, 55.5);
 }
 
 .text-secondary-dark-8 {
-  color: rgb(1.6, 22.8, 37);
+    color: rgb(1.6, 22.8, 37);
 }
 
 .text-hover-secondary-dark-8:hover {
-  color: rgb(1.6, 22.8, 37);
+    color: rgb(1.6, 22.8, 37);
 }
 
 .bg-secondary-dark-8 {
-  background-color: rgb(1.6, 22.8, 37);
+    background-color: rgb(1.6, 22.8, 37);
 }
 
 .text-secondary-dark-9 {
-  color: rgb(0.8, 11.4, 18.5);
+    color: rgb(0.8, 11.4, 18.5);
 }
 
 .text-hover-secondary-dark-9:hover {
-  color: rgb(0.8, 11.4, 18.5);
+    color: rgb(0.8, 11.4, 18.5);
 }
 
 .bg-secondary-dark-9 {
-  background-color: rgb(0.8, 11.4, 18.5);
+    background-color: rgb(0.8, 11.4, 18.5);
 }
 
 .text-secondary-light-1 {
-  color: rgb(32.7, 128.1, 192);
+    color: rgb(32.7, 128.1, 192);
 }
 
 .text-hover-secondary-light-1:hover {
-  color: rgb(32.7, 128.1, 192);
+    color: rgb(32.7, 128.1, 192);
 }
 
 .bg-secondary-light-1 {
-  background-color: rgb(32.7, 128.1, 192);
+    background-color: rgb(32.7, 128.1, 192);
 }
 
 .text-secondary-light-2 {
-  color: rgb(57.4, 142.2, 199);
+    color: rgb(57.4, 142.2, 199);
 }
 
 .text-hover-secondary-light-2:hover {
-  color: rgb(57.4, 142.2, 199);
+    color: rgb(57.4, 142.2, 199);
 }
 
 .bg-secondary-light-2 {
-  background-color: rgb(57.4, 142.2, 199);
+    background-color: rgb(57.4, 142.2, 199);
 }
 
 .text-secondary-light-3 {
-  color: rgb(82.1, 156.3, 206);
+    color: rgb(82.1, 156.3, 206);
 }
 
 .text-hover-secondary-light-3:hover {
-  color: rgb(82.1, 156.3, 206);
+    color: rgb(82.1, 156.3, 206);
 }
 
 .bg-secondary-light-3 {
-  background-color: rgb(82.1, 156.3, 206);
+    background-color: rgb(82.1, 156.3, 206);
 }
 
 .text-secondary-light-4 {
-  color: rgb(106.8, 170.4, 213);
+    color: rgb(106.8, 170.4, 213);
 }
 
 .text-hover-secondary-light-4:hover {
-  color: rgb(106.8, 170.4, 213);
+    color: rgb(106.8, 170.4, 213);
 }
 
 .bg-secondary-light-4 {
-  background-color: rgb(106.8, 170.4, 213);
+    background-color: rgb(106.8, 170.4, 213);
 }
 
 .text-secondary-light-5 {
-  color: rgb(131.5, 184.5, 220);
+    color: rgb(131.5, 184.5, 220);
 }
 
 .text-hover-secondary-light-5:hover {
-  color: rgb(131.5, 184.5, 220);
+    color: rgb(131.5, 184.5, 220);
 }
 
 .bg-secondary-light-5 {
-  background-color: rgb(131.5, 184.5, 220);
+    background-color: rgb(131.5, 184.5, 220);
 }
 
 .text-secondary-light-6 {
-  color: rgb(156.2, 198.6, 227);
+    color: rgb(156.2, 198.6, 227);
 }
 
 .text-hover-secondary-light-6:hover {
-  color: rgb(156.2, 198.6, 227);
+    color: rgb(156.2, 198.6, 227);
 }
 
 .bg-secondary-light-6 {
-  background-color: rgb(156.2, 198.6, 227);
+    background-color: rgb(156.2, 198.6, 227);
 }
 
 .text-secondary-light-7 {
-  color: rgb(180.9, 212.7, 234);
+    color: rgb(180.9, 212.7, 234);
 }
 
 .text-hover-secondary-light-7:hover {
-  color: rgb(180.9, 212.7, 234);
+    color: rgb(180.9, 212.7, 234);
 }
 
 .bg-secondary-light-7 {
-  background-color: rgb(180.9, 212.7, 234);
+    background-color: rgb(180.9, 212.7, 234);
 }
 
 .text-secondary-light-8 {
-  color: rgb(205.6, 226.8, 241);
+    color: rgb(205.6, 226.8, 241);
 }
 
 .text-hover-secondary-light-8:hover {
-  color: rgb(205.6, 226.8, 241);
+    color: rgb(205.6, 226.8, 241);
 }
 
 .bg-secondary-light-8 {
-  background-color: rgb(205.6, 226.8, 241);
+    background-color: rgb(205.6, 226.8, 241);
 }
 
 .text-secondary-light-9 {
-  color: rgb(230.3, 240.9, 248);
+    color: rgb(230.3, 240.9, 248);
 }
 
 .text-hover-secondary-light-9:hover {
-  color: rgb(230.3, 240.9, 248);
+    color: rgb(230.3, 240.9, 248);
 }
 
 .bg-secondary-light-9 {
-  background-color: rgb(230.3, 240.9, 248);
+    background-color: rgb(230.3, 240.9, 248);
 }
 
 .text-light {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 .text-hover-light:hover {
-  color: #f1f1f1;
+    color: #f1f1f1;
 }
 
 .bg-light {
-  background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .text-light-dark-1 {
-  color: rgb(216.9, 216.9, 216.9);
+    color: rgb(216.9, 216.9, 216.9);
 }
 
 .text-hover-light-dark-1:hover {
-  color: rgb(216.9, 216.9, 216.9);
+    color: rgb(216.9, 216.9, 216.9);
 }
 
 .bg-light-dark-1 {
-  background-color: rgb(216.9, 216.9, 216.9);
+    background-color: rgb(216.9, 216.9, 216.9);
 }
 
 .text-light-dark-2 {
-  color: rgb(192.8, 192.8, 192.8);
+    color: rgb(192.8, 192.8, 192.8);
 }
 
 .text-hover-light-dark-2:hover {
-  color: rgb(192.8, 192.8, 192.8);
+    color: rgb(192.8, 192.8, 192.8);
 }
 
 .bg-light-dark-2 {
-  background-color: rgb(192.8, 192.8, 192.8);
+    background-color: rgb(192.8, 192.8, 192.8);
 }
 
 .text-light-dark-3 {
-  color: rgb(168.7, 168.7, 168.7);
+    color: rgb(168.7, 168.7, 168.7);
 }
 
 .text-hover-light-dark-3:hover {
-  color: rgb(168.7, 168.7, 168.7);
+    color: rgb(168.7, 168.7, 168.7);
 }
 
 .bg-light-dark-3 {
-  background-color: rgb(168.7, 168.7, 168.7);
+    background-color: rgb(168.7, 168.7, 168.7);
 }
 
 .text-light-dark-4 {
-  color: rgb(144.6, 144.6, 144.6);
+    color: rgb(144.6, 144.6, 144.6);
 }
 
 .text-hover-light-dark-4:hover {
-  color: rgb(144.6, 144.6, 144.6);
+    color: rgb(144.6, 144.6, 144.6);
 }
 
 .bg-light-dark-4 {
-  background-color: rgb(144.6, 144.6, 144.6);
+    background-color: rgb(144.6, 144.6, 144.6);
 }
 
 .text-light-dark-5 {
-  color: rgb(120.5, 120.5, 120.5);
+    color: rgb(120.5, 120.5, 120.5);
 }
 
 .text-hover-light-dark-5:hover {
-  color: rgb(120.5, 120.5, 120.5);
+    color: rgb(120.5, 120.5, 120.5);
 }
 
 .bg-light-dark-5 {
-  background-color: rgb(120.5, 120.5, 120.5);
+    background-color: rgb(120.5, 120.5, 120.5);
 }
 
 .text-light-dark-6 {
-  color: rgb(96.4, 96.4, 96.4);
+    color: rgb(96.4, 96.4, 96.4);
 }
 
 .text-hover-light-dark-6:hover {
-  color: rgb(96.4, 96.4, 96.4);
+    color: rgb(96.4, 96.4, 96.4);
 }
 
 .bg-light-dark-6 {
-  background-color: rgb(96.4, 96.4, 96.4);
+    background-color: rgb(96.4, 96.4, 96.4);
 }
 
 .text-light-dark-7 {
-  color: rgb(72.3, 72.3, 72.3);
+    color: rgb(72.3, 72.3, 72.3);
 }
 
 .text-hover-light-dark-7:hover {
-  color: rgb(72.3, 72.3, 72.3);
+    color: rgb(72.3, 72.3, 72.3);
 }
 
 .bg-light-dark-7 {
-  background-color: rgb(72.3, 72.3, 72.3);
+    background-color: rgb(72.3, 72.3, 72.3);
 }
 
 .text-light-dark-8 {
-  color: rgb(48.2, 48.2, 48.2);
+    color: rgb(48.2, 48.2, 48.2);
 }
 
 .text-hover-light-dark-8:hover {
-  color: rgb(48.2, 48.2, 48.2);
+    color: rgb(48.2, 48.2, 48.2);
 }
 
 .bg-light-dark-8 {
-  background-color: rgb(48.2, 48.2, 48.2);
+    background-color: rgb(48.2, 48.2, 48.2);
 }
 
 .text-light-dark-9 {
-  color: rgb(24.1, 24.1, 24.1);
+    color: rgb(24.1, 24.1, 24.1);
 }
 
 .text-hover-light-dark-9:hover {
-  color: rgb(24.1, 24.1, 24.1);
+    color: rgb(24.1, 24.1, 24.1);
 }
 
 .bg-light-dark-9 {
-  background-color: rgb(24.1, 24.1, 24.1);
+    background-color: rgb(24.1, 24.1, 24.1);
 }
 
 .text-light-light-1 {
-  color: rgb(242.4, 242.4, 242.4);
+    color: rgb(242.4, 242.4, 242.4);
 }
 
 .text-hover-light-light-1:hover {
-  color: rgb(242.4, 242.4, 242.4);
+    color: rgb(242.4, 242.4, 242.4);
 }
 
 .bg-light-light-1 {
-  background-color: rgb(242.4, 242.4, 242.4);
+    background-color: rgb(242.4, 242.4, 242.4);
 }
 
 .text-light-light-2 {
-  color: rgb(243.8, 243.8, 243.8);
+    color: rgb(243.8, 243.8, 243.8);
 }
 
 .text-hover-light-light-2:hover {
-  color: rgb(243.8, 243.8, 243.8);
+    color: rgb(243.8, 243.8, 243.8);
 }
 
 .bg-light-light-2 {
-  background-color: rgb(243.8, 243.8, 243.8);
+    background-color: rgb(243.8, 243.8, 243.8);
 }
 
 .text-light-light-3 {
-  color: rgb(245.2, 245.2, 245.2);
+    color: rgb(245.2, 245.2, 245.2);
 }
 
 .text-hover-light-light-3:hover {
-  color: rgb(245.2, 245.2, 245.2);
+    color: rgb(245.2, 245.2, 245.2);
 }
 
 .bg-light-light-3 {
-  background-color: rgb(245.2, 245.2, 245.2);
+    background-color: rgb(245.2, 245.2, 245.2);
 }
 
 .text-light-light-4 {
-  color: rgb(246.6, 246.6, 246.6);
+    color: rgb(246.6, 246.6, 246.6);
 }
 
 .text-hover-light-light-4:hover {
-  color: rgb(246.6, 246.6, 246.6);
+    color: rgb(246.6, 246.6, 246.6);
 }
 
 .bg-light-light-4 {
-  background-color: rgb(246.6, 246.6, 246.6);
+    background-color: rgb(246.6, 246.6, 246.6);
 }
 
 .text-light-light-5 {
-  color: #f8f8f8;
+    color: #f8f8f8;
 }
 
 .text-hover-light-light-5:hover {
-  color: #f8f8f8;
+    color: #f8f8f8;
 }
 
 .bg-light-light-5 {
-  background-color: #f8f8f8;
+    background-color: #f8f8f8;
 }
 
 .text-light-light-6 {
-  color: rgb(249.4, 249.4, 249.4);
+    color: rgb(249.4, 249.4, 249.4);
 }
 
 .text-hover-light-light-6:hover {
-  color: rgb(249.4, 249.4, 249.4);
+    color: rgb(249.4, 249.4, 249.4);
 }
 
 .bg-light-light-6 {
-  background-color: rgb(249.4, 249.4, 249.4);
+    background-color: rgb(249.4, 249.4, 249.4);
 }
 
 .text-light-light-7 {
-  color: rgb(250.8, 250.8, 250.8);
+    color: rgb(250.8, 250.8, 250.8);
 }
 
 .text-hover-light-light-7:hover {
-  color: rgb(250.8, 250.8, 250.8);
+    color: rgb(250.8, 250.8, 250.8);
 }
 
 .bg-light-light-7 {
-  background-color: rgb(250.8, 250.8, 250.8);
+    background-color: rgb(250.8, 250.8, 250.8);
 }
 
 .text-light-light-8 {
-  color: rgb(252.2, 252.2, 252.2);
+    color: rgb(252.2, 252.2, 252.2);
 }
 
 .text-hover-light-light-8:hover {
-  color: rgb(252.2, 252.2, 252.2);
+    color: rgb(252.2, 252.2, 252.2);
 }
 
 .bg-light-light-8 {
-  background-color: rgb(252.2, 252.2, 252.2);
+    background-color: rgb(252.2, 252.2, 252.2);
 }
 
 .text-light-light-9 {
-  color: rgb(253.6, 253.6, 253.6);
+    color: rgb(253.6, 253.6, 253.6);
 }
 
 .text-hover-light-light-9:hover {
-  color: rgb(253.6, 253.6, 253.6);
+    color: rgb(253.6, 253.6, 253.6);
 }
 
 .bg-light-light-9 {
-  background-color: rgb(253.6, 253.6, 253.6);
+    background-color: rgb(253.6, 253.6, 253.6);
 }
 
 .text-white {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .text-hover-white:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .bg-white {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .text-black {
-  color: #000000;
+    color: #000000;
 }
 
 .text-hover-black:hover {
-  color: #000000;
+    color: #000000;
 }
 
 .bg-black {
-  background-color: #000000;
+    background-color: #000000;
 }
 
 .text-medium-dark {
-  color: #555555;
+    color: #555555;
 }
 
 .text-hover-medium-dark:hover {
-  color: #555555;
+    color: #555555;
 }
 
 .bg-medium-dark {
-  background-color: #555555;
+    background-color: #555555;
 }
 
 .text-medium-dark-dark-1 {
-  color: rgb(76.5, 76.5, 76.5);
+    color: rgb(76.5, 76.5, 76.5);
 }
 
 .text-hover-medium-dark-dark-1:hover {
-  color: rgb(76.5, 76.5, 76.5);
+    color: rgb(76.5, 76.5, 76.5);
 }
 
 .bg-medium-dark-dark-1 {
-  background-color: rgb(76.5, 76.5, 76.5);
+    background-color: rgb(76.5, 76.5, 76.5);
 }
 
 .text-medium-dark-dark-2 {
-  color: #444444;
+    color: #444444;
 }
 
 .text-hover-medium-dark-dark-2:hover {
-  color: #444444;
+    color: #444444;
 }
 
 .bg-medium-dark-dark-2 {
-  background-color: #444444;
+    background-color: #444444;
 }
 
 .text-medium-dark-dark-3 {
-  color: rgb(59.5, 59.5, 59.5);
+    color: rgb(59.5, 59.5, 59.5);
 }
 
 .text-hover-medium-dark-dark-3:hover {
-  color: rgb(59.5, 59.5, 59.5);
+    color: rgb(59.5, 59.5, 59.5);
 }
 
 .bg-medium-dark-dark-3 {
-  background-color: rgb(59.5, 59.5, 59.5);
+    background-color: rgb(59.5, 59.5, 59.5);
 }
 
 .text-medium-dark-dark-4 {
-  color: #333333;
+    color: #333333;
 }
 
 .text-hover-medium-dark-dark-4:hover {
-  color: #333333;
+    color: #333333;
 }
 
 .bg-medium-dark-dark-4 {
-  background-color: #333333;
+    background-color: #333333;
 }
 
 .text-medium-dark-dark-5 {
-  color: rgb(42.5, 42.5, 42.5);
+    color: rgb(42.5, 42.5, 42.5);
 }
 
 .text-hover-medium-dark-dark-5:hover {
-  color: rgb(42.5, 42.5, 42.5);
+    color: rgb(42.5, 42.5, 42.5);
 }
 
 .bg-medium-dark-dark-5 {
-  background-color: rgb(42.5, 42.5, 42.5);
+    background-color: rgb(42.5, 42.5, 42.5);
 }
 
 .text-medium-dark-dark-6 {
-  color: #222222;
+    color: #222222;
 }
 
 .text-hover-medium-dark-dark-6:hover {
-  color: #222222;
+    color: #222222;
 }
 
 .bg-medium-dark-dark-6 {
-  background-color: #222222;
+    background-color: #222222;
 }
 
 .text-medium-dark-dark-7 {
-  color: rgb(25.5, 25.5, 25.5);
+    color: rgb(25.5, 25.5, 25.5);
 }
 
 .text-hover-medium-dark-dark-7:hover {
-  color: rgb(25.5, 25.5, 25.5);
+    color: rgb(25.5, 25.5, 25.5);
 }
 
 .bg-medium-dark-dark-7 {
-  background-color: rgb(25.5, 25.5, 25.5);
+    background-color: rgb(25.5, 25.5, 25.5);
 }
 
 .text-medium-dark-dark-8 {
-  color: #111111;
+    color: #111111;
 }
 
 .text-hover-medium-dark-dark-8:hover {
-  color: #111111;
+    color: #111111;
 }
 
 .bg-medium-dark-dark-8 {
-  background-color: #111111;
+    background-color: #111111;
 }
 
 .text-medium-dark-dark-9 {
-  color: rgb(8.5, 8.5, 8.5);
+    color: rgb(8.5, 8.5, 8.5);
 }
 
 .text-hover-medium-dark-dark-9:hover {
-  color: rgb(8.5, 8.5, 8.5);
+    color: rgb(8.5, 8.5, 8.5);
 }
 
 .bg-medium-dark-dark-9 {
-  background-color: rgb(8.5, 8.5, 8.5);
+    background-color: rgb(8.5, 8.5, 8.5);
 }
 
 .text-medium-dark-light-1 {
-  color: #666666;
+    color: #666666;
 }
 
 .text-hover-medium-dark-light-1:hover {
-  color: #666666;
+    color: #666666;
 }
 
 .bg-medium-dark-light-1 {
-  background-color: #666666;
+    background-color: #666666;
 }
 
 .text-medium-dark-light-2 {
-  color: #777777;
+    color: #777777;
 }
 
 .text-hover-medium-dark-light-2:hover {
-  color: #777777;
+    color: #777777;
 }
 
 .bg-medium-dark-light-2 {
-  background-color: #777777;
+    background-color: #777777;
 }
 
 .text-medium-dark-light-3 {
-  color: #888888;
+    color: #888888;
 }
 
 .text-hover-medium-dark-light-3:hover {
-  color: #888888;
+    color: #888888;
 }
 
 .bg-medium-dark-light-3 {
-  background-color: #888888;
+    background-color: #888888;
 }
 
 .text-medium-dark-light-4 {
-  color: #999999;
+    color: #999999;
 }
 
 .text-hover-medium-dark-light-4:hover {
-  color: #999999;
+    color: #999999;
 }
 
 .bg-medium-dark-light-4 {
-  background-color: #999999;
+    background-color: #999999;
 }
 
 .text-medium-dark-light-5 {
-  color: #aaaaaa;
+    color: #aaaaaa;
 }
 
 .text-hover-medium-dark-light-5:hover {
-  color: #aaaaaa;
+    color: #aaaaaa;
 }
 
 .bg-medium-dark-light-5 {
-  background-color: #aaaaaa;
+    background-color: #aaaaaa;
 }
 
 .text-medium-dark-light-6 {
-  color: #bbbbbb;
+    color: #bbbbbb;
 }
 
 .text-hover-medium-dark-light-6:hover {
-  color: #bbbbbb;
+    color: #bbbbbb;
 }
 
 .bg-medium-dark-light-6 {
-  background-color: #bbbbbb;
+    background-color: #bbbbbb;
 }
 
 .text-medium-dark-light-7 {
-  color: #cccccc;
+    color: #cccccc;
 }
 
 .text-hover-medium-dark-light-7:hover {
-  color: #cccccc;
+    color: #cccccc;
 }
 
 .bg-medium-dark-light-7 {
-  background-color: #cccccc;
+    background-color: #cccccc;
 }
 
 .text-medium-dark-light-8 {
-  color: #dddddd;
+    color: #dddddd;
 }
 
 .text-hover-medium-dark-light-8:hover {
-  color: #dddddd;
+    color: #dddddd;
 }
 
 .bg-medium-dark-light-8 {
-  background-color: #dddddd;
+    background-color: #dddddd;
 }
 
 .text-medium-dark-light-9 {
-  color: #eeeeee;
+    color: #eeeeee;
 }
 
 .text-hover-medium-dark-light-9:hover {
-  color: #eeeeee;
+    color: #eeeeee;
 }
 
 .bg-medium-dark-light-9 {
-  background-color: #eeeeee;
+    background-color: #eeeeee;
 }
 
 .text-overly-dark {
-  color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .text-hover-overly-dark:hover {
-  color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .bg-overly-dark {
-  background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .text-overly-dark-dark-1 {
-  color: rgba(0, 0, 0, 0.64);
+    color: rgba(0, 0, 0, 0.64);
 }
 
 .text-hover-overly-dark-dark-1:hover {
-  color: rgba(0, 0, 0, 0.64);
+    color: rgba(0, 0, 0, 0.64);
 }
 
 .bg-overly-dark-dark-1 {
-  background-color: rgba(0, 0, 0, 0.64);
+    background-color: rgba(0, 0, 0, 0.64);
 }
 
 .text-overly-dark-dark-2 {
-  color: rgba(0, 0, 0, 0.68);
+    color: rgba(0, 0, 0, 0.68);
 }
 
 .text-hover-overly-dark-dark-2:hover {
-  color: rgba(0, 0, 0, 0.68);
+    color: rgba(0, 0, 0, 0.68);
 }
 
 .bg-overly-dark-dark-2 {
-  background-color: rgba(0, 0, 0, 0.68);
+    background-color: rgba(0, 0, 0, 0.68);
 }
 
 .text-overly-dark-dark-3 {
-  color: rgba(0, 0, 0, 0.72);
+    color: rgba(0, 0, 0, 0.72);
 }
 
 .text-hover-overly-dark-dark-3:hover {
-  color: rgba(0, 0, 0, 0.72);
+    color: rgba(0, 0, 0, 0.72);
 }
 
 .bg-overly-dark-dark-3 {
-  background-color: rgba(0, 0, 0, 0.72);
+    background-color: rgba(0, 0, 0, 0.72);
 }
 
 .text-overly-dark-dark-4 {
-  color: rgba(0, 0, 0, 0.76);
+    color: rgba(0, 0, 0, 0.76);
 }
 
 .text-hover-overly-dark-dark-4:hover {
-  color: rgba(0, 0, 0, 0.76);
+    color: rgba(0, 0, 0, 0.76);
 }
 
 .bg-overly-dark-dark-4 {
-  background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(0, 0, 0, 0.76);
 }
 
 .text-overly-dark-dark-5 {
-  color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .text-hover-overly-dark-dark-5:hover {
-  color: rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .bg-overly-dark-dark-5 {
-  background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .text-overly-dark-dark-6 {
-  color: rgba(0, 0, 0, 0.84);
+    color: rgba(0, 0, 0, 0.84);
 }
 
 .text-hover-overly-dark-dark-6:hover {
-  color: rgba(0, 0, 0, 0.84);
+    color: rgba(0, 0, 0, 0.84);
 }
 
 .bg-overly-dark-dark-6 {
-  background-color: rgba(0, 0, 0, 0.84);
+    background-color: rgba(0, 0, 0, 0.84);
 }
 
 .text-overly-dark-dark-7 {
-  color: rgba(0, 0, 0, 0.88);
+    color: rgba(0, 0, 0, 0.88);
 }
 
 .text-hover-overly-dark-dark-7:hover {
-  color: rgba(0, 0, 0, 0.88);
+    color: rgba(0, 0, 0, 0.88);
 }
 
 .bg-overly-dark-dark-7 {
-  background-color: rgba(0, 0, 0, 0.88);
+    background-color: rgba(0, 0, 0, 0.88);
 }
 
 .text-overly-dark-dark-8 {
-  color: rgba(0, 0, 0, 0.92);
+    color: rgba(0, 0, 0, 0.92);
 }
 
 .text-hover-overly-dark-dark-8:hover {
-  color: rgba(0, 0, 0, 0.92);
+    color: rgba(0, 0, 0, 0.92);
 }
 
 .bg-overly-dark-dark-8 {
-  background-color: rgba(0, 0, 0, 0.92);
+    background-color: rgba(0, 0, 0, 0.92);
 }
 
 .text-overly-dark-dark-9 {
-  color: rgba(0, 0, 0, 0.96);
+    color: rgba(0, 0, 0, 0.96);
 }
 
 .text-hover-overly-dark-dark-9:hover {
-  color: rgba(0, 0, 0, 0.96);
+    color: rgba(0, 0, 0, 0.96);
 }
 
 .bg-overly-dark-dark-9 {
-  background-color: rgba(0, 0, 0, 0.96);
+    background-color: rgba(0, 0, 0, 0.96);
 }
 
 .text-overly-dark-light-1 {
-  color: rgba(52.5, 52.5, 52.5, 0.64);
+    color: rgba(52.5, 52.5, 52.5, 0.64);
 }
 
 .text-hover-overly-dark-light-1:hover {
-  color: rgba(52.5, 52.5, 52.5, 0.64);
+    color: rgba(52.5, 52.5, 52.5, 0.64);
 }
 
 .bg-overly-dark-light-1 {
-  background-color: rgba(52.5, 52.5, 52.5, 0.64);
+    background-color: rgba(52.5, 52.5, 52.5, 0.64);
 }
 
 .text-overly-dark-light-2 {
-  color: rgba(93.9473684211, 93.9473684211, 93.9473684211, 0.68);
+    color: rgba(93.9473684211, 93.9473684211, 93.9473684211, 0.68);
 }
 
 .text-hover-overly-dark-light-2:hover {
-  color: rgba(93.9473684211, 93.9473684211, 93.9473684211, 0.68);
+    color: rgba(93.9473684211, 93.9473684211, 93.9473684211, 0.68);
 }
 
 .bg-overly-dark-light-2 {
-  background-color: rgba(93.9473684211, 93.9473684211, 93.9473684211, 0.68);
+    background-color: rgba(93.9473684211, 93.9473684211, 93.9473684211, 0.68);
 }
 
 .text-overly-dark-light-3 {
-  color: rgba(127.5, 127.5, 127.5, 0.72);
+    color: rgba(127.5, 127.5, 127.5, 0.72);
 }
 
 .text-hover-overly-dark-light-3:hover {
-  color: rgba(127.5, 127.5, 127.5, 0.72);
+    color: rgba(127.5, 127.5, 127.5, 0.72);
 }
 
 .bg-overly-dark-light-3 {
-  background-color: rgba(127.5, 127.5, 127.5, 0.72);
+    background-color: rgba(127.5, 127.5, 127.5, 0.72);
 }
 
 .text-overly-dark-light-4 {
-  color: rgba(155.2173913043, 155.2173913043, 155.2173913043, 0.76);
+    color: rgba(155.2173913043, 155.2173913043, 155.2173913043, 0.76);
 }
 
 .text-hover-overly-dark-light-4:hover {
-  color: rgba(155.2173913043, 155.2173913043, 155.2173913043, 0.76);
+    color: rgba(155.2173913043, 155.2173913043, 155.2173913043, 0.76);
 }
 
 .bg-overly-dark-light-4 {
-  background-color: rgba(155.2173913043, 155.2173913043, 155.2173913043, 0.76);
+    background-color: rgba(
+        155.2173913043,
+        155.2173913043,
+        155.2173913043,
+        0.76
+    );
 }
 
 .text-overly-dark-light-5 {
-  color: rgba(178.5, 178.5, 178.5, 0.8);
+    color: rgba(178.5, 178.5, 178.5, 0.8);
 }
 
 .text-hover-overly-dark-light-5:hover {
-  color: rgba(178.5, 178.5, 178.5, 0.8);
+    color: rgba(178.5, 178.5, 178.5, 0.8);
 }
 
 .bg-overly-dark-light-5 {
-  background-color: rgba(178.5, 178.5, 178.5, 0.8);
+    background-color: rgba(178.5, 178.5, 178.5, 0.8);
 }
 
 .text-overly-dark-light-6 {
-  color: rgba(198.3333333333, 198.3333333333, 198.3333333333, 0.84);
+    color: rgba(198.3333333333, 198.3333333333, 198.3333333333, 0.84);
 }
 
 .text-hover-overly-dark-light-6:hover {
-  color: rgba(198.3333333333, 198.3333333333, 198.3333333333, 0.84);
+    color: rgba(198.3333333333, 198.3333333333, 198.3333333333, 0.84);
 }
 
 .bg-overly-dark-light-6 {
-  background-color: rgba(198.3333333333, 198.3333333333, 198.3333333333, 0.84);
+    background-color: rgba(
+        198.3333333333,
+        198.3333333333,
+        198.3333333333,
+        0.84
+    );
 }
 
 .text-overly-dark-light-7 {
-  color: rgba(215.4310344828, 215.4310344828, 215.4310344828, 0.88);
+    color: rgba(215.4310344828, 215.4310344828, 215.4310344828, 0.88);
 }
 
 .text-hover-overly-dark-light-7:hover {
-  color: rgba(215.4310344828, 215.4310344828, 215.4310344828, 0.88);
+    color: rgba(215.4310344828, 215.4310344828, 215.4310344828, 0.88);
 }
 
 .bg-overly-dark-light-7 {
-  background-color: rgba(215.4310344828, 215.4310344828, 215.4310344828, 0.88);
+    background-color: rgba(
+        215.4310344828,
+        215.4310344828,
+        215.4310344828,
+        0.88
+    );
 }
 
 .text-overly-dark-light-8 {
-  color: rgba(230.3225806452, 230.3225806452, 230.3225806452, 0.92);
+    color: rgba(230.3225806452, 230.3225806452, 230.3225806452, 0.92);
 }
 
 .text-hover-overly-dark-light-8:hover {
-  color: rgba(230.3225806452, 230.3225806452, 230.3225806452, 0.92);
+    color: rgba(230.3225806452, 230.3225806452, 230.3225806452, 0.92);
 }
 
 .bg-overly-dark-light-8 {
-  background-color: rgba(230.3225806452, 230.3225806452, 230.3225806452, 0.92);
+    background-color: rgba(
+        230.3225806452,
+        230.3225806452,
+        230.3225806452,
+        0.92
+    );
 }
 
 .text-overly-dark-light-9 {
-  color: rgba(243.4090909091, 243.4090909091, 243.4090909091, 0.96);
+    color: rgba(243.4090909091, 243.4090909091, 243.4090909091, 0.96);
 }
 
 .text-hover-overly-dark-light-9:hover {
-  color: rgba(243.4090909091, 243.4090909091, 243.4090909091, 0.96);
+    color: rgba(243.4090909091, 243.4090909091, 243.4090909091, 0.96);
 }
 
 .bg-overly-dark-light-9 {
-  background-color: rgba(243.4090909091, 243.4090909091, 243.4090909091, 0.96);
+    background-color: rgba(
+        243.4090909091,
+        243.4090909091,
+        243.4090909091,
+        0.96
+    );
 }
 
 .text-accent {
-  color: #ff4081;
+    color: #ff4081;
 }
 
 .text-hover-accent:hover {
-  color: #ff4081;
+    color: #ff4081;
 }
 
 .bg-accent {
-  background-color: #ff4081;
+    background-color: #ff4081;
 }
 
 .text-accent-dark-1 {
-  color: rgb(229.5, 57.6, 116.1);
+    color: rgb(229.5, 57.6, 116.1);
 }
 
 .text-hover-accent-dark-1:hover {
-  color: rgb(229.5, 57.6, 116.1);
+    color: rgb(229.5, 57.6, 116.1);
 }
 
 .bg-accent-dark-1 {
-  background-color: rgb(229.5, 57.6, 116.1);
+    background-color: rgb(229.5, 57.6, 116.1);
 }
 
 .text-accent-dark-2 {
-  color: rgb(204, 51.2, 103.2);
+    color: rgb(204, 51.2, 103.2);
 }
 
 .text-hover-accent-dark-2:hover {
-  color: rgb(204, 51.2, 103.2);
+    color: rgb(204, 51.2, 103.2);
 }
 
 .bg-accent-dark-2 {
-  background-color: rgb(204, 51.2, 103.2);
+    background-color: rgb(204, 51.2, 103.2);
 }
 
 .text-accent-dark-3 {
-  color: rgb(178.5, 44.8, 90.3);
+    color: rgb(178.5, 44.8, 90.3);
 }
 
 .text-hover-accent-dark-3:hover {
-  color: rgb(178.5, 44.8, 90.3);
+    color: rgb(178.5, 44.8, 90.3);
 }
 
 .bg-accent-dark-3 {
-  background-color: rgb(178.5, 44.8, 90.3);
+    background-color: rgb(178.5, 44.8, 90.3);
 }
 
 .text-accent-dark-4 {
-  color: rgb(153, 38.4, 77.4);
+    color: rgb(153, 38.4, 77.4);
 }
 
 .text-hover-accent-dark-4:hover {
-  color: rgb(153, 38.4, 77.4);
+    color: rgb(153, 38.4, 77.4);
 }
 
 .bg-accent-dark-4 {
-  background-color: rgb(153, 38.4, 77.4);
+    background-color: rgb(153, 38.4, 77.4);
 }
 
 .text-accent-dark-5 {
-  color: rgb(127.5, 32, 64.5);
+    color: rgb(127.5, 32, 64.5);
 }
 
 .text-hover-accent-dark-5:hover {
-  color: rgb(127.5, 32, 64.5);
+    color: rgb(127.5, 32, 64.5);
 }
 
 .bg-accent-dark-5 {
-  background-color: rgb(127.5, 32, 64.5);
+    background-color: rgb(127.5, 32, 64.5);
 }
 
 .text-accent-dark-6 {
-  color: rgb(102, 25.6, 51.6);
+    color: rgb(102, 25.6, 51.6);
 }
 
 .text-hover-accent-dark-6:hover {
-  color: rgb(102, 25.6, 51.6);
+    color: rgb(102, 25.6, 51.6);
 }
 
 .bg-accent-dark-6 {
-  background-color: rgb(102, 25.6, 51.6);
+    background-color: rgb(102, 25.6, 51.6);
 }
 
 .text-accent-dark-7 {
-  color: rgb(76.5, 19.2, 38.7);
+    color: rgb(76.5, 19.2, 38.7);
 }
 
 .text-hover-accent-dark-7:hover {
-  color: rgb(76.5, 19.2, 38.7);
+    color: rgb(76.5, 19.2, 38.7);
 }
 
 .bg-accent-dark-7 {
-  background-color: rgb(76.5, 19.2, 38.7);
+    background-color: rgb(76.5, 19.2, 38.7);
 }
 
 .text-accent-dark-8 {
-  color: rgb(51, 12.8, 25.8);
+    color: rgb(51, 12.8, 25.8);
 }
 
 .text-hover-accent-dark-8:hover {
-  color: rgb(51, 12.8, 25.8);
+    color: rgb(51, 12.8, 25.8);
 }
 
 .bg-accent-dark-8 {
-  background-color: rgb(51, 12.8, 25.8);
+    background-color: rgb(51, 12.8, 25.8);
 }
 
 .text-accent-dark-9 {
-  color: rgb(25.5, 6.4, 12.9);
+    color: rgb(25.5, 6.4, 12.9);
 }
 
 .text-hover-accent-dark-9:hover {
-  color: rgb(25.5, 6.4, 12.9);
+    color: rgb(25.5, 6.4, 12.9);
 }
 
 .bg-accent-dark-9 {
-  background-color: rgb(25.5, 6.4, 12.9);
+    background-color: rgb(25.5, 6.4, 12.9);
 }
 
 .text-accent-light-1 {
-  color: rgb(255, 83.1, 141.6);
+    color: rgb(255, 83.1, 141.6);
 }
 
 .text-hover-accent-light-1:hover {
-  color: rgb(255, 83.1, 141.6);
+    color: rgb(255, 83.1, 141.6);
 }
 
 .bg-accent-light-1 {
-  background-color: rgb(255, 83.1, 141.6);
+    background-color: rgb(255, 83.1, 141.6);
 }
 
 .text-accent-light-2 {
-  color: rgb(255, 102.2, 154.2);
+    color: rgb(255, 102.2, 154.2);
 }
 
 .text-hover-accent-light-2:hover {
-  color: rgb(255, 102.2, 154.2);
+    color: rgb(255, 102.2, 154.2);
 }
 
 .bg-accent-light-2 {
-  background-color: rgb(255, 102.2, 154.2);
+    background-color: rgb(255, 102.2, 154.2);
 }
 
 .text-accent-light-3 {
-  color: rgb(255, 121.3, 166.8);
+    color: rgb(255, 121.3, 166.8);
 }
 
 .text-hover-accent-light-3:hover {
-  color: rgb(255, 121.3, 166.8);
+    color: rgb(255, 121.3, 166.8);
 }
 
 .bg-accent-light-3 {
-  background-color: rgb(255, 121.3, 166.8);
+    background-color: rgb(255, 121.3, 166.8);
 }
 
 .text-accent-light-4 {
-  color: rgb(255, 140.4, 179.4);
+    color: rgb(255, 140.4, 179.4);
 }
 
 .text-hover-accent-light-4:hover {
-  color: rgb(255, 140.4, 179.4);
+    color: rgb(255, 140.4, 179.4);
 }
 
 .bg-accent-light-4 {
-  background-color: rgb(255, 140.4, 179.4);
+    background-color: rgb(255, 140.4, 179.4);
 }
 
 .text-accent-light-5 {
-  color: rgb(255, 159.5, 192);
+    color: rgb(255, 159.5, 192);
 }
 
 .text-hover-accent-light-5:hover {
-  color: rgb(255, 159.5, 192);
+    color: rgb(255, 159.5, 192);
 }
 
 .bg-accent-light-5 {
-  background-color: rgb(255, 159.5, 192);
+    background-color: rgb(255, 159.5, 192);
 }
 
 .text-accent-light-6 {
-  color: rgb(255, 178.6, 204.6);
+    color: rgb(255, 178.6, 204.6);
 }
 
 .text-hover-accent-light-6:hover {
-  color: rgb(255, 178.6, 204.6);
+    color: rgb(255, 178.6, 204.6);
 }
 
 .bg-accent-light-6 {
-  background-color: rgb(255, 178.6, 204.6);
+    background-color: rgb(255, 178.6, 204.6);
 }
 
 .text-accent-light-7 {
-  color: rgb(255, 197.7, 217.2);
+    color: rgb(255, 197.7, 217.2);
 }
 
 .text-hover-accent-light-7:hover {
-  color: rgb(255, 197.7, 217.2);
+    color: rgb(255, 197.7, 217.2);
 }
 
 .bg-accent-light-7 {
-  background-color: rgb(255, 197.7, 217.2);
+    background-color: rgb(255, 197.7, 217.2);
 }
 
 .text-accent-light-8 {
-  color: rgb(255, 216.8, 229.8);
+    color: rgb(255, 216.8, 229.8);
 }
 
 .text-hover-accent-light-8:hover {
-  color: rgb(255, 216.8, 229.8);
+    color: rgb(255, 216.8, 229.8);
 }
 
 .bg-accent-light-8 {
-  background-color: rgb(255, 216.8, 229.8);
+    background-color: rgb(255, 216.8, 229.8);
 }
 
 .text-accent-light-9 {
-  color: rgb(255, 235.9, 242.4);
+    color: rgb(255, 235.9, 242.4);
 }
 
 .text-hover-accent-light-9:hover {
-  color: rgb(255, 235.9, 242.4);
+    color: rgb(255, 235.9, 242.4);
 }
 
 .bg-accent-light-9 {
-  background-color: rgb(255, 235.9, 242.4);
+    background-color: rgb(255, 235.9, 242.4);
 }
 
 .text-background {
-  color: #f4f4f4;
+    color: #f4f4f4;
 }
 
 .text-hover-background:hover {
-  color: #f4f4f4;
+    color: #f4f4f4;
 }
 
 .bg-background {
-  background-color: #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 .text-background-dark-1 {
-  color: rgb(219.6, 219.6, 219.6);
+    color: rgb(219.6, 219.6, 219.6);
 }
 
 .text-hover-background-dark-1:hover {
-  color: rgb(219.6, 219.6, 219.6);
+    color: rgb(219.6, 219.6, 219.6);
 }
 
 .bg-background-dark-1 {
-  background-color: rgb(219.6, 219.6, 219.6);
+    background-color: rgb(219.6, 219.6, 219.6);
 }
 
 .text-background-dark-2 {
-  color: rgb(195.2, 195.2, 195.2);
+    color: rgb(195.2, 195.2, 195.2);
 }
 
 .text-hover-background-dark-2:hover {
-  color: rgb(195.2, 195.2, 195.2);
+    color: rgb(195.2, 195.2, 195.2);
 }
 
 .bg-background-dark-2 {
-  background-color: rgb(195.2, 195.2, 195.2);
+    background-color: rgb(195.2, 195.2, 195.2);
 }
 
 .text-background-dark-3 {
-  color: rgb(170.8, 170.8, 170.8);
+    color: rgb(170.8, 170.8, 170.8);
 }
 
 .text-hover-background-dark-3:hover {
-  color: rgb(170.8, 170.8, 170.8);
+    color: rgb(170.8, 170.8, 170.8);
 }
 
 .bg-background-dark-3 {
-  background-color: rgb(170.8, 170.8, 170.8);
+    background-color: rgb(170.8, 170.8, 170.8);
 }
 
 .text-background-dark-4 {
-  color: rgb(146.4, 146.4, 146.4);
+    color: rgb(146.4, 146.4, 146.4);
 }
 
 .text-hover-background-dark-4:hover {
-  color: rgb(146.4, 146.4, 146.4);
+    color: rgb(146.4, 146.4, 146.4);
 }
 
 .bg-background-dark-4 {
-  background-color: rgb(146.4, 146.4, 146.4);
+    background-color: rgb(146.4, 146.4, 146.4);
 }
 
 .text-background-dark-5 {
-  color: #7a7a7a;
+    color: #7a7a7a;
 }
 
 .text-hover-background-dark-5:hover {
-  color: #7a7a7a;
+    color: #7a7a7a;
 }
 
 .bg-background-dark-5 {
-  background-color: #7a7a7a;
+    background-color: #7a7a7a;
 }
 
 .text-background-dark-6 {
-  color: rgb(97.6, 97.6, 97.6);
+    color: rgb(97.6, 97.6, 97.6);
 }
 
 .text-hover-background-dark-6:hover {
-  color: rgb(97.6, 97.6, 97.6);
+    color: rgb(97.6, 97.6, 97.6);
 }
 
 .bg-background-dark-6 {
-  background-color: rgb(97.6, 97.6, 97.6);
+    background-color: rgb(97.6, 97.6, 97.6);
 }
 
 .text-background-dark-7 {
-  color: rgb(73.2, 73.2, 73.2);
+    color: rgb(73.2, 73.2, 73.2);
 }
 
 .text-hover-background-dark-7:hover {
-  color: rgb(73.2, 73.2, 73.2);
+    color: rgb(73.2, 73.2, 73.2);
 }
 
 .bg-background-dark-7 {
-  background-color: rgb(73.2, 73.2, 73.2);
+    background-color: rgb(73.2, 73.2, 73.2);
 }
 
 .text-background-dark-8 {
-  color: rgb(48.8, 48.8, 48.8);
+    color: rgb(48.8, 48.8, 48.8);
 }
 
 .text-hover-background-dark-8:hover {
-  color: rgb(48.8, 48.8, 48.8);
+    color: rgb(48.8, 48.8, 48.8);
 }
 
 .bg-background-dark-8 {
-  background-color: rgb(48.8, 48.8, 48.8);
+    background-color: rgb(48.8, 48.8, 48.8);
 }
 
 .text-background-dark-9 {
-  color: rgb(24.4, 24.4, 24.4);
+    color: rgb(24.4, 24.4, 24.4);
 }
 
 .text-hover-background-dark-9:hover {
-  color: rgb(24.4, 24.4, 24.4);
+    color: rgb(24.4, 24.4, 24.4);
 }
 
 .bg-background-dark-9 {
-  background-color: rgb(24.4, 24.4, 24.4);
+    background-color: rgb(24.4, 24.4, 24.4);
 }
 
 .text-background-light-1 {
-  color: rgb(245.1, 245.1, 245.1);
+    color: rgb(245.1, 245.1, 245.1);
 }
 
 .text-hover-background-light-1:hover {
-  color: rgb(245.1, 245.1, 245.1);
+    color: rgb(245.1, 245.1, 245.1);
 }
 
 .bg-background-light-1 {
-  background-color: rgb(245.1, 245.1, 245.1);
+    background-color: rgb(245.1, 245.1, 245.1);
 }
 
 .text-background-light-2 {
-  color: rgb(246.2, 246.2, 246.2);
+    color: rgb(246.2, 246.2, 246.2);
 }
 
 .text-hover-background-light-2:hover {
-  color: rgb(246.2, 246.2, 246.2);
+    color: rgb(246.2, 246.2, 246.2);
 }
 
 .bg-background-light-2 {
-  background-color: rgb(246.2, 246.2, 246.2);
+    background-color: rgb(246.2, 246.2, 246.2);
 }
 
 .text-background-light-3 {
-  color: rgb(247.3, 247.3, 247.3);
+    color: rgb(247.3, 247.3, 247.3);
 }
 
 .text-hover-background-light-3:hover {
-  color: rgb(247.3, 247.3, 247.3);
+    color: rgb(247.3, 247.3, 247.3);
 }
 
 .bg-background-light-3 {
-  background-color: rgb(247.3, 247.3, 247.3);
+    background-color: rgb(247.3, 247.3, 247.3);
 }
 
 .text-background-light-4 {
-  color: rgb(248.4, 248.4, 248.4);
+    color: rgb(248.4, 248.4, 248.4);
 }
 
 .text-hover-background-light-4:hover {
-  color: rgb(248.4, 248.4, 248.4);
+    color: rgb(248.4, 248.4, 248.4);
 }
 
 .bg-background-light-4 {
-  background-color: rgb(248.4, 248.4, 248.4);
+    background-color: rgb(248.4, 248.4, 248.4);
 }
 
 .text-background-light-5 {
-  color: rgb(249.5, 249.5, 249.5);
+    color: rgb(249.5, 249.5, 249.5);
 }
 
 .text-hover-background-light-5:hover {
-  color: rgb(249.5, 249.5, 249.5);
+    color: rgb(249.5, 249.5, 249.5);
 }
 
 .bg-background-light-5 {
-  background-color: rgb(249.5, 249.5, 249.5);
+    background-color: rgb(249.5, 249.5, 249.5);
 }
 
 .text-background-light-6 {
-  color: rgb(250.6, 250.6, 250.6);
+    color: rgb(250.6, 250.6, 250.6);
 }
 
 .text-hover-background-light-6:hover {
-  color: rgb(250.6, 250.6, 250.6);
+    color: rgb(250.6, 250.6, 250.6);
 }
 
 .bg-background-light-6 {
-  background-color: rgb(250.6, 250.6, 250.6);
+    background-color: rgb(250.6, 250.6, 250.6);
 }
 
 .text-background-light-7 {
-  color: rgb(251.7, 251.7, 251.7);
+    color: rgb(251.7, 251.7, 251.7);
 }
 
 .text-hover-background-light-7:hover {
-  color: rgb(251.7, 251.7, 251.7);
+    color: rgb(251.7, 251.7, 251.7);
 }
 
 .bg-background-light-7 {
-  background-color: rgb(251.7, 251.7, 251.7);
+    background-color: rgb(251.7, 251.7, 251.7);
 }
 
 .text-background-light-8 {
-  color: rgb(252.8, 252.8, 252.8);
+    color: rgb(252.8, 252.8, 252.8);
 }
 
 .text-hover-background-light-8:hover {
-  color: rgb(252.8, 252.8, 252.8);
+    color: rgb(252.8, 252.8, 252.8);
 }
 
 .bg-background-light-8 {
-  background-color: rgb(252.8, 252.8, 252.8);
+    background-color: rgb(252.8, 252.8, 252.8);
 }
 
 .text-background-light-9 {
-  color: rgb(253.9, 253.9, 253.9);
+    color: rgb(253.9, 253.9, 253.9);
 }
 
 .text-hover-background-light-9:hover {
-  color: rgb(253.9, 253.9, 253.9);
+    color: rgb(253.9, 253.9, 253.9);
 }
 
 .bg-background-light-9 {
-  background-color: rgb(253.9, 253.9, 253.9);
+    background-color: rgb(253.9, 253.9, 253.9);
 }
 
 .text-highlight {
-  color: #ffeb3b;
+    color: #ffeb3b;
 }
 
 .text-hover-highlight:hover {
-  color: #ffeb3b;
+    color: #ffeb3b;
 }
 
 .bg-highlight {
-  background-color: #ffeb3b;
+    background-color: #ffeb3b;
 }
 
 .text-highlight-dark-1 {
-  color: rgb(229.5, 211.5, 53.1);
+    color: rgb(229.5, 211.5, 53.1);
 }
 
 .text-hover-highlight-dark-1:hover {
-  color: rgb(229.5, 211.5, 53.1);
+    color: rgb(229.5, 211.5, 53.1);
 }
 
 .bg-highlight-dark-1 {
-  background-color: rgb(229.5, 211.5, 53.1);
+    background-color: rgb(229.5, 211.5, 53.1);
 }
 
 .text-highlight-dark-2 {
-  color: rgb(204, 188, 47.2);
+    color: rgb(204, 188, 47.2);
 }
 
 .text-hover-highlight-dark-2:hover {
-  color: rgb(204, 188, 47.2);
+    color: rgb(204, 188, 47.2);
 }
 
 .bg-highlight-dark-2 {
-  background-color: rgb(204, 188, 47.2);
+    background-color: rgb(204, 188, 47.2);
 }
 
 .text-highlight-dark-3 {
-  color: rgb(178.5, 164.5, 41.3);
+    color: rgb(178.5, 164.5, 41.3);
 }
 
 .text-hover-highlight-dark-3:hover {
-  color: rgb(178.5, 164.5, 41.3);
+    color: rgb(178.5, 164.5, 41.3);
 }
 
 .bg-highlight-dark-3 {
-  background-color: rgb(178.5, 164.5, 41.3);
+    background-color: rgb(178.5, 164.5, 41.3);
 }
 
 .text-highlight-dark-4 {
-  color: rgb(153, 141, 35.4);
+    color: rgb(153, 141, 35.4);
 }
 
 .text-hover-highlight-dark-4:hover {
-  color: rgb(153, 141, 35.4);
+    color: rgb(153, 141, 35.4);
 }
 
 .bg-highlight-dark-4 {
-  background-color: rgb(153, 141, 35.4);
+    background-color: rgb(153, 141, 35.4);
 }
 
 .text-highlight-dark-5 {
-  color: rgb(127.5, 117.5, 29.5);
+    color: rgb(127.5, 117.5, 29.5);
 }
 
 .text-hover-highlight-dark-5:hover {
-  color: rgb(127.5, 117.5, 29.5);
+    color: rgb(127.5, 117.5, 29.5);
 }
 
 .bg-highlight-dark-5 {
-  background-color: rgb(127.5, 117.5, 29.5);
+    background-color: rgb(127.5, 117.5, 29.5);
 }
 
 .text-highlight-dark-6 {
-  color: rgb(102, 94, 23.6);
+    color: rgb(102, 94, 23.6);
 }
 
 .text-hover-highlight-dark-6:hover {
-  color: rgb(102, 94, 23.6);
+    color: rgb(102, 94, 23.6);
 }
 
 .bg-highlight-dark-6 {
-  background-color: rgb(102, 94, 23.6);
+    background-color: rgb(102, 94, 23.6);
 }
 
 .text-highlight-dark-7 {
-  color: rgb(76.5, 70.5, 17.7);
+    color: rgb(76.5, 70.5, 17.7);
 }
 
 .text-hover-highlight-dark-7:hover {
-  color: rgb(76.5, 70.5, 17.7);
+    color: rgb(76.5, 70.5, 17.7);
 }
 
 .bg-highlight-dark-7 {
-  background-color: rgb(76.5, 70.5, 17.7);
+    background-color: rgb(76.5, 70.5, 17.7);
 }
 
 .text-highlight-dark-8 {
-  color: rgb(51, 47, 11.8);
+    color: rgb(51, 47, 11.8);
 }
 
 .text-hover-highlight-dark-8:hover {
-  color: rgb(51, 47, 11.8);
+    color: rgb(51, 47, 11.8);
 }
 
 .bg-highlight-dark-8 {
-  background-color: rgb(51, 47, 11.8);
+    background-color: rgb(51, 47, 11.8);
 }
 
 .text-highlight-dark-9 {
-  color: rgb(25.5, 23.5, 5.9);
+    color: rgb(25.5, 23.5, 5.9);
 }
 
 .text-hover-highlight-dark-9:hover {
-  color: rgb(25.5, 23.5, 5.9);
+    color: rgb(25.5, 23.5, 5.9);
 }
 
 .bg-highlight-dark-9 {
-  background-color: rgb(25.5, 23.5, 5.9);
+    background-color: rgb(25.5, 23.5, 5.9);
 }
 
 .text-highlight-light-1 {
-  color: rgb(255, 237, 78.6);
+    color: rgb(255, 237, 78.6);
 }
 
 .text-hover-highlight-light-1:hover {
-  color: rgb(255, 237, 78.6);
+    color: rgb(255, 237, 78.6);
 }
 
 .bg-highlight-light-1 {
-  background-color: rgb(255, 237, 78.6);
+    background-color: rgb(255, 237, 78.6);
 }
 
 .text-highlight-light-2 {
-  color: rgb(255, 239, 98.2);
+    color: rgb(255, 239, 98.2);
 }
 
 .text-hover-highlight-light-2:hover {
-  color: rgb(255, 239, 98.2);
+    color: rgb(255, 239, 98.2);
 }
 
 .bg-highlight-light-2 {
-  background-color: rgb(255, 239, 98.2);
+    background-color: rgb(255, 239, 98.2);
 }
 
 .text-highlight-light-3 {
-  color: rgb(255, 241, 117.8);
+    color: rgb(255, 241, 117.8);
 }
 
 .text-hover-highlight-light-3:hover {
-  color: rgb(255, 241, 117.8);
+    color: rgb(255, 241, 117.8);
 }
 
 .bg-highlight-light-3 {
-  background-color: rgb(255, 241, 117.8);
+    background-color: rgb(255, 241, 117.8);
 }
 
 .text-highlight-light-4 {
-  color: rgb(255, 243, 137.4);
+    color: rgb(255, 243, 137.4);
 }
 
 .text-hover-highlight-light-4:hover {
-  color: rgb(255, 243, 137.4);
+    color: rgb(255, 243, 137.4);
 }
 
 .bg-highlight-light-4 {
-  background-color: rgb(255, 243, 137.4);
+    background-color: rgb(255, 243, 137.4);
 }
 
 .text-highlight-light-5 {
-  color: #fff59d;
+    color: #fff59d;
 }
 
 .text-hover-highlight-light-5:hover {
-  color: #fff59d;
+    color: #fff59d;
 }
 
 .bg-highlight-light-5 {
-  background-color: #fff59d;
+    background-color: #fff59d;
 }
 
 .text-highlight-light-6 {
-  color: rgb(255, 247, 176.6);
+    color: rgb(255, 247, 176.6);
 }
 
 .text-hover-highlight-light-6:hover {
-  color: rgb(255, 247, 176.6);
+    color: rgb(255, 247, 176.6);
 }
 
 .bg-highlight-light-6 {
-  background-color: rgb(255, 247, 176.6);
+    background-color: rgb(255, 247, 176.6);
 }
 
 .text-highlight-light-7 {
-  color: rgb(255, 249, 196.2);
+    color: rgb(255, 249, 196.2);
 }
 
 .text-hover-highlight-light-7:hover {
-  color: rgb(255, 249, 196.2);
+    color: rgb(255, 249, 196.2);
 }
 
 .bg-highlight-light-7 {
-  background-color: rgb(255, 249, 196.2);
+    background-color: rgb(255, 249, 196.2);
 }
 
 .text-highlight-light-8 {
-  color: rgb(255, 251, 215.8);
+    color: rgb(255, 251, 215.8);
 }
 
 .text-hover-highlight-light-8:hover {
-  color: rgb(255, 251, 215.8);
+    color: rgb(255, 251, 215.8);
 }
 
 .bg-highlight-light-8 {
-  background-color: rgb(255, 251, 215.8);
+    background-color: rgb(255, 251, 215.8);
 }
 
 .text-highlight-light-9 {
-  color: rgb(255, 253, 235.4);
+    color: rgb(255, 253, 235.4);
 }
 
 .text-hover-highlight-light-9:hover {
-  color: rgb(255, 253, 235.4);
+    color: rgb(255, 253, 235.4);
 }
 
 .bg-highlight-light-9 {
-  background-color: rgb(255, 253, 235.4);
+    background-color: rgb(255, 253, 235.4);
 }
 
 .text-error {
-  color: #f44336;
+    color: #f44336;
 }
 
 .text-hover-error:hover {
-  color: #f44336;
+    color: #f44336;
 }
 
 .bg-error {
-  background-color: #f44336;
+    background-color: #f44336;
 }
 
 .text-error-dark-1 {
-  color: rgb(219.6, 60.3, 48.6);
+    color: rgb(219.6, 60.3, 48.6);
 }
 
 .text-hover-error-dark-1:hover {
-  color: rgb(219.6, 60.3, 48.6);
+    color: rgb(219.6, 60.3, 48.6);
 }
 
 .bg-error-dark-1 {
-  background-color: rgb(219.6, 60.3, 48.6);
+    background-color: rgb(219.6, 60.3, 48.6);
 }
 
 .text-error-dark-2 {
-  color: rgb(195.2, 53.6, 43.2);
+    color: rgb(195.2, 53.6, 43.2);
 }
 
 .text-hover-error-dark-2:hover {
-  color: rgb(195.2, 53.6, 43.2);
+    color: rgb(195.2, 53.6, 43.2);
 }
 
 .bg-error-dark-2 {
-  background-color: rgb(195.2, 53.6, 43.2);
+    background-color: rgb(195.2, 53.6, 43.2);
 }
 
 .text-error-dark-3 {
-  color: rgb(170.8, 46.9, 37.8);
+    color: rgb(170.8, 46.9, 37.8);
 }
 
 .text-hover-error-dark-3:hover {
-  color: rgb(170.8, 46.9, 37.8);
+    color: rgb(170.8, 46.9, 37.8);
 }
 
 .bg-error-dark-3 {
-  background-color: rgb(170.8, 46.9, 37.8);
+    background-color: rgb(170.8, 46.9, 37.8);
 }
 
 .text-error-dark-4 {
-  color: rgb(146.4, 40.2, 32.4);
+    color: rgb(146.4, 40.2, 32.4);
 }
 
 .text-hover-error-dark-4:hover {
-  color: rgb(146.4, 40.2, 32.4);
+    color: rgb(146.4, 40.2, 32.4);
 }
 
 .bg-error-dark-4 {
-  background-color: rgb(146.4, 40.2, 32.4);
+    background-color: rgb(146.4, 40.2, 32.4);
 }
 
 .text-error-dark-5 {
-  color: rgb(122, 33.5, 27);
+    color: rgb(122, 33.5, 27);
 }
 
 .text-hover-error-dark-5:hover {
-  color: rgb(122, 33.5, 27);
+    color: rgb(122, 33.5, 27);
 }
 
 .bg-error-dark-5 {
-  background-color: rgb(122, 33.5, 27);
+    background-color: rgb(122, 33.5, 27);
 }
 
 .text-error-dark-6 {
-  color: rgb(97.6, 26.8, 21.6);
+    color: rgb(97.6, 26.8, 21.6);
 }
 
 .text-hover-error-dark-6:hover {
-  color: rgb(97.6, 26.8, 21.6);
+    color: rgb(97.6, 26.8, 21.6);
 }
 
 .bg-error-dark-6 {
-  background-color: rgb(97.6, 26.8, 21.6);
+    background-color: rgb(97.6, 26.8, 21.6);
 }
 
 .text-error-dark-7 {
-  color: rgb(73.2, 20.1, 16.2);
+    color: rgb(73.2, 20.1, 16.2);
 }
 
 .text-hover-error-dark-7:hover {
-  color: rgb(73.2, 20.1, 16.2);
+    color: rgb(73.2, 20.1, 16.2);
 }
 
 .bg-error-dark-7 {
-  background-color: rgb(73.2, 20.1, 16.2);
+    background-color: rgb(73.2, 20.1, 16.2);
 }
 
 .text-error-dark-8 {
-  color: rgb(48.8, 13.4, 10.8);
+    color: rgb(48.8, 13.4, 10.8);
 }
 
 .text-hover-error-dark-8:hover {
-  color: rgb(48.8, 13.4, 10.8);
+    color: rgb(48.8, 13.4, 10.8);
 }
 
 .bg-error-dark-8 {
-  background-color: rgb(48.8, 13.4, 10.8);
+    background-color: rgb(48.8, 13.4, 10.8);
 }
 
 .text-error-dark-9 {
-  color: rgb(24.4, 6.7, 5.4);
+    color: rgb(24.4, 6.7, 5.4);
 }
 
 .text-hover-error-dark-9:hover {
-  color: rgb(24.4, 6.7, 5.4);
+    color: rgb(24.4, 6.7, 5.4);
 }
 
 .bg-error-dark-9 {
-  background-color: rgb(24.4, 6.7, 5.4);
+    background-color: rgb(24.4, 6.7, 5.4);
 }
 
 .text-error-light-1 {
-  color: rgb(245.1, 85.8, 74.1);
+    color: rgb(245.1, 85.8, 74.1);
 }
 
 .text-hover-error-light-1:hover {
-  color: rgb(245.1, 85.8, 74.1);
+    color: rgb(245.1, 85.8, 74.1);
 }
 
 .bg-error-light-1 {
-  background-color: rgb(245.1, 85.8, 74.1);
+    background-color: rgb(245.1, 85.8, 74.1);
 }
 
 .text-error-light-2 {
-  color: rgb(246.2, 104.6, 94.2);
+    color: rgb(246.2, 104.6, 94.2);
 }
 
 .text-hover-error-light-2:hover {
-  color: rgb(246.2, 104.6, 94.2);
+    color: rgb(246.2, 104.6, 94.2);
 }
 
 .bg-error-light-2 {
-  background-color: rgb(246.2, 104.6, 94.2);
+    background-color: rgb(246.2, 104.6, 94.2);
 }
 
 .text-error-light-3 {
-  color: rgb(247.3, 123.4, 114.3);
+    color: rgb(247.3, 123.4, 114.3);
 }
 
 .text-hover-error-light-3:hover {
-  color: rgb(247.3, 123.4, 114.3);
+    color: rgb(247.3, 123.4, 114.3);
 }
 
 .bg-error-light-3 {
-  background-color: rgb(247.3, 123.4, 114.3);
+    background-color: rgb(247.3, 123.4, 114.3);
 }
 
 .text-error-light-4 {
-  color: rgb(248.4, 142.2, 134.4);
+    color: rgb(248.4, 142.2, 134.4);
 }
 
 .text-hover-error-light-4:hover {
-  color: rgb(248.4, 142.2, 134.4);
+    color: rgb(248.4, 142.2, 134.4);
 }
 
 .bg-error-light-4 {
-  background-color: rgb(248.4, 142.2, 134.4);
+    background-color: rgb(248.4, 142.2, 134.4);
 }
 
 .text-error-light-5 {
-  color: rgb(249.5, 161, 154.5);
+    color: rgb(249.5, 161, 154.5);
 }
 
 .text-hover-error-light-5:hover {
-  color: rgb(249.5, 161, 154.5);
+    color: rgb(249.5, 161, 154.5);
 }
 
 .bg-error-light-5 {
-  background-color: rgb(249.5, 161, 154.5);
+    background-color: rgb(249.5, 161, 154.5);
 }
 
 .text-error-light-6 {
-  color: rgb(250.6, 179.8, 174.6);
+    color: rgb(250.6, 179.8, 174.6);
 }
 
 .text-hover-error-light-6:hover {
-  color: rgb(250.6, 179.8, 174.6);
+    color: rgb(250.6, 179.8, 174.6);
 }
 
 .bg-error-light-6 {
-  background-color: rgb(250.6, 179.8, 174.6);
+    background-color: rgb(250.6, 179.8, 174.6);
 }
 
 .text-error-light-7 {
-  color: rgb(251.7, 198.6, 194.7);
+    color: rgb(251.7, 198.6, 194.7);
 }
 
 .text-hover-error-light-7:hover {
-  color: rgb(251.7, 198.6, 194.7);
+    color: rgb(251.7, 198.6, 194.7);
 }
 
 .bg-error-light-7 {
-  background-color: rgb(251.7, 198.6, 194.7);
+    background-color: rgb(251.7, 198.6, 194.7);
 }
 
 .text-error-light-8 {
-  color: rgb(252.8, 217.4, 214.8);
+    color: rgb(252.8, 217.4, 214.8);
 }
 
 .text-hover-error-light-8:hover {
-  color: rgb(252.8, 217.4, 214.8);
+    color: rgb(252.8, 217.4, 214.8);
 }
 
 .bg-error-light-8 {
-  background-color: rgb(252.8, 217.4, 214.8);
+    background-color: rgb(252.8, 217.4, 214.8);
 }
 
 .text-error-light-9 {
-  color: rgb(253.9, 236.2, 234.9);
+    color: rgb(253.9, 236.2, 234.9);
 }
 
 .text-hover-error-light-9:hover {
-  color: rgb(253.9, 236.2, 234.9);
+    color: rgb(253.9, 236.2, 234.9);
 }
 
 .bg-error-light-9 {
-  background-color: rgb(253.9, 236.2, 234.9);
+    background-color: rgb(253.9, 236.2, 234.9);
 }
 
 .text-success {
-  color: #4caf50;
+    color: #4caf50;
 }
 
 .text-hover-success:hover {
-  color: #4caf50;
+    color: #4caf50;
 }
 
 .bg-success {
-  background-color: #4caf50;
+    background-color: #4caf50;
 }
 
 .text-success-dark-1 {
-  color: rgb(68.4, 157.5, 72);
+    color: rgb(68.4, 157.5, 72);
 }
 
 .text-hover-success-dark-1:hover {
-  color: rgb(68.4, 157.5, 72);
+    color: rgb(68.4, 157.5, 72);
 }
 
 .bg-success-dark-1 {
-  background-color: rgb(68.4, 157.5, 72);
+    background-color: rgb(68.4, 157.5, 72);
 }
 
 .text-success-dark-2 {
-  color: rgb(60.8, 140, 64);
+    color: rgb(60.8, 140, 64);
 }
 
 .text-hover-success-dark-2:hover {
-  color: rgb(60.8, 140, 64);
+    color: rgb(60.8, 140, 64);
 }
 
 .bg-success-dark-2 {
-  background-color: rgb(60.8, 140, 64);
+    background-color: rgb(60.8, 140, 64);
 }
 
 .text-success-dark-3 {
-  color: rgb(53.2, 122.5, 56);
+    color: rgb(53.2, 122.5, 56);
 }
 
 .text-hover-success-dark-3:hover {
-  color: rgb(53.2, 122.5, 56);
+    color: rgb(53.2, 122.5, 56);
 }
 
 .bg-success-dark-3 {
-  background-color: rgb(53.2, 122.5, 56);
+    background-color: rgb(53.2, 122.5, 56);
 }
 
 .text-success-dark-4 {
-  color: rgb(45.6, 105, 48);
+    color: rgb(45.6, 105, 48);
 }
 
 .text-hover-success-dark-4:hover {
-  color: rgb(45.6, 105, 48);
+    color: rgb(45.6, 105, 48);
 }
 
 .bg-success-dark-4 {
-  background-color: rgb(45.6, 105, 48);
+    background-color: rgb(45.6, 105, 48);
 }
 
 .text-success-dark-5 {
-  color: rgb(38, 87.5, 40);
+    color: rgb(38, 87.5, 40);
 }
 
 .text-hover-success-dark-5:hover {
-  color: rgb(38, 87.5, 40);
+    color: rgb(38, 87.5, 40);
 }
 
 .bg-success-dark-5 {
-  background-color: rgb(38, 87.5, 40);
+    background-color: rgb(38, 87.5, 40);
 }
 
 .text-success-dark-6 {
-  color: rgb(30.4, 70, 32);
+    color: rgb(30.4, 70, 32);
 }
 
 .text-hover-success-dark-6:hover {
-  color: rgb(30.4, 70, 32);
+    color: rgb(30.4, 70, 32);
 }
 
 .bg-success-dark-6 {
-  background-color: rgb(30.4, 70, 32);
+    background-color: rgb(30.4, 70, 32);
 }
 
 .text-success-dark-7 {
-  color: rgb(22.8, 52.5, 24);
+    color: rgb(22.8, 52.5, 24);
 }
 
 .text-hover-success-dark-7:hover {
-  color: rgb(22.8, 52.5, 24);
+    color: rgb(22.8, 52.5, 24);
 }
 
 .bg-success-dark-7 {
-  background-color: rgb(22.8, 52.5, 24);
+    background-color: rgb(22.8, 52.5, 24);
 }
 
 .text-success-dark-8 {
-  color: rgb(15.2, 35, 16);
+    color: rgb(15.2, 35, 16);
 }
 
 .text-hover-success-dark-8:hover {
-  color: rgb(15.2, 35, 16);
+    color: rgb(15.2, 35, 16);
 }
 
 .bg-success-dark-8 {
-  background-color: rgb(15.2, 35, 16);
+    background-color: rgb(15.2, 35, 16);
 }
 
 .text-success-dark-9 {
-  color: rgb(7.6, 17.5, 8);
+    color: rgb(7.6, 17.5, 8);
 }
 
 .text-hover-success-dark-9:hover {
-  color: rgb(7.6, 17.5, 8);
+    color: rgb(7.6, 17.5, 8);
 }
 
 .bg-success-dark-9 {
-  background-color: rgb(7.6, 17.5, 8);
+    background-color: rgb(7.6, 17.5, 8);
 }
 
 .text-success-light-1 {
-  color: rgb(93.9, 183, 97.5);
+    color: rgb(93.9, 183, 97.5);
 }
 
 .text-hover-success-light-1:hover {
-  color: rgb(93.9, 183, 97.5);
+    color: rgb(93.9, 183, 97.5);
 }
 
 .bg-success-light-1 {
-  background-color: rgb(93.9, 183, 97.5);
+    background-color: rgb(93.9, 183, 97.5);
 }
 
 .text-success-light-2 {
-  color: rgb(111.8, 191, 115);
+    color: rgb(111.8, 191, 115);
 }
 
 .text-hover-success-light-2:hover {
-  color: rgb(111.8, 191, 115);
+    color: rgb(111.8, 191, 115);
 }
 
 .bg-success-light-2 {
-  background-color: rgb(111.8, 191, 115);
+    background-color: rgb(111.8, 191, 115);
 }
 
 .text-success-light-3 {
-  color: rgb(129.7, 199, 132.5);
+    color: rgb(129.7, 199, 132.5);
 }
 
 .text-hover-success-light-3:hover {
-  color: rgb(129.7, 199, 132.5);
+    color: rgb(129.7, 199, 132.5);
 }
 
 .bg-success-light-3 {
-  background-color: rgb(129.7, 199, 132.5);
+    background-color: rgb(129.7, 199, 132.5);
 }
 
 .text-success-light-4 {
-  color: rgb(147.6, 207, 150);
+    color: rgb(147.6, 207, 150);
 }
 
 .text-hover-success-light-4:hover {
-  color: rgb(147.6, 207, 150);
+    color: rgb(147.6, 207, 150);
 }
 
 .bg-success-light-4 {
-  background-color: rgb(147.6, 207, 150);
+    background-color: rgb(147.6, 207, 150);
 }
 
 .text-success-light-5 {
-  color: rgb(165.5, 215, 167.5);
+    color: rgb(165.5, 215, 167.5);
 }
 
 .text-hover-success-light-5:hover {
-  color: rgb(165.5, 215, 167.5);
+    color: rgb(165.5, 215, 167.5);
 }
 
 .bg-success-light-5 {
-  background-color: rgb(165.5, 215, 167.5);
+    background-color: rgb(165.5, 215, 167.5);
 }
 
 .text-success-light-6 {
-  color: rgb(183.4, 223, 185);
+    color: rgb(183.4, 223, 185);
 }
 
 .text-hover-success-light-6:hover {
-  color: rgb(183.4, 223, 185);
+    color: rgb(183.4, 223, 185);
 }
 
 .bg-success-light-6 {
-  background-color: rgb(183.4, 223, 185);
+    background-color: rgb(183.4, 223, 185);
 }
 
 .text-success-light-7 {
-  color: rgb(201.3, 231, 202.5);
+    color: rgb(201.3, 231, 202.5);
 }
 
 .text-hover-success-light-7:hover {
-  color: rgb(201.3, 231, 202.5);
+    color: rgb(201.3, 231, 202.5);
 }
 
 .bg-success-light-7 {
-  background-color: rgb(201.3, 231, 202.5);
+    background-color: rgb(201.3, 231, 202.5);
 }
 
 .text-success-light-8 {
-  color: rgb(219.2, 239, 220);
+    color: rgb(219.2, 239, 220);
 }
 
 .text-hover-success-light-8:hover {
-  color: rgb(219.2, 239, 220);
+    color: rgb(219.2, 239, 220);
 }
 
 .bg-success-light-8 {
-  background-color: rgb(219.2, 239, 220);
+    background-color: rgb(219.2, 239, 220);
 }
 
 .text-success-light-9 {
-  color: rgb(237.1, 247, 237.5);
+    color: rgb(237.1, 247, 237.5);
 }
 
 .text-hover-success-light-9:hover {
-  color: rgb(237.1, 247, 237.5);
+    color: rgb(237.1, 247, 237.5);
 }
 
 .bg-success-light-9 {
-  background-color: rgb(237.1, 247, 237.5);
+    background-color: rgb(237.1, 247, 237.5);
 }
 
 .text-warning {
-  color: #ff9800;
+    color: #ff9800;
 }
 
 .text-hover-warning:hover {
-  color: #ff9800;
+    color: #ff9800;
 }
 
 .bg-warning {
-  background-color: #ff9800;
+    background-color: #ff9800;
 }
 
 .text-warning-dark-1 {
-  color: rgb(229.5, 136.8, 0);
+    color: rgb(229.5, 136.8, 0);
 }
 
 .text-hover-warning-dark-1:hover {
-  color: rgb(229.5, 136.8, 0);
+    color: rgb(229.5, 136.8, 0);
 }
 
 .bg-warning-dark-1 {
-  background-color: rgb(229.5, 136.8, 0);
+    background-color: rgb(229.5, 136.8, 0);
 }
 
 .text-warning-dark-2 {
-  color: rgb(204, 121.6, 0);
+    color: rgb(204, 121.6, 0);
 }
 
 .text-hover-warning-dark-2:hover {
-  color: rgb(204, 121.6, 0);
+    color: rgb(204, 121.6, 0);
 }
 
 .bg-warning-dark-2 {
-  background-color: rgb(204, 121.6, 0);
+    background-color: rgb(204, 121.6, 0);
 }
 
 .text-warning-dark-3 {
-  color: rgb(178.5, 106.4, 0);
+    color: rgb(178.5, 106.4, 0);
 }
 
 .text-hover-warning-dark-3:hover {
-  color: rgb(178.5, 106.4, 0);
+    color: rgb(178.5, 106.4, 0);
 }
 
 .bg-warning-dark-3 {
-  background-color: rgb(178.5, 106.4, 0);
+    background-color: rgb(178.5, 106.4, 0);
 }
 
 .text-warning-dark-4 {
-  color: rgb(153, 91.2, 0);
+    color: rgb(153, 91.2, 0);
 }
 
 .text-hover-warning-dark-4:hover {
-  color: rgb(153, 91.2, 0);
+    color: rgb(153, 91.2, 0);
 }
 
 .bg-warning-dark-4 {
-  background-color: rgb(153, 91.2, 0);
+    background-color: rgb(153, 91.2, 0);
 }
 
 .text-warning-dark-5 {
-  color: rgb(127.5, 76, 0);
+    color: rgb(127.5, 76, 0);
 }
 
 .text-hover-warning-dark-5:hover {
-  color: rgb(127.5, 76, 0);
+    color: rgb(127.5, 76, 0);
 }
 
 .bg-warning-dark-5 {
-  background-color: rgb(127.5, 76, 0);
+    background-color: rgb(127.5, 76, 0);
 }
 
 .text-warning-dark-6 {
-  color: rgb(102, 60.8, 0);
+    color: rgb(102, 60.8, 0);
 }
 
 .text-hover-warning-dark-6:hover {
-  color: rgb(102, 60.8, 0);
+    color: rgb(102, 60.8, 0);
 }
 
 .bg-warning-dark-6 {
-  background-color: rgb(102, 60.8, 0);
+    background-color: rgb(102, 60.8, 0);
 }
 
 .text-warning-dark-7 {
-  color: rgb(76.5, 45.6, 0);
+    color: rgb(76.5, 45.6, 0);
 }
 
 .text-hover-warning-dark-7:hover {
-  color: rgb(76.5, 45.6, 0);
+    color: rgb(76.5, 45.6, 0);
 }
 
 .bg-warning-dark-7 {
-  background-color: rgb(76.5, 45.6, 0);
+    background-color: rgb(76.5, 45.6, 0);
 }
 
 .text-warning-dark-8 {
-  color: rgb(51, 30.4, 0);
+    color: rgb(51, 30.4, 0);
 }
 
 .text-hover-warning-dark-8:hover {
-  color: rgb(51, 30.4, 0);
+    color: rgb(51, 30.4, 0);
 }
 
 .bg-warning-dark-8 {
-  background-color: rgb(51, 30.4, 0);
+    background-color: rgb(51, 30.4, 0);
 }
 
 .text-warning-dark-9 {
-  color: rgb(25.5, 15.2, 0);
+    color: rgb(25.5, 15.2, 0);
 }
 
 .text-hover-warning-dark-9:hover {
-  color: rgb(25.5, 15.2, 0);
+    color: rgb(25.5, 15.2, 0);
 }
 
 .bg-warning-dark-9 {
-  background-color: rgb(25.5, 15.2, 0);
+    background-color: rgb(25.5, 15.2, 0);
 }
 
 .text-warning-light-1 {
-  color: rgb(255, 162.3, 25.5);
+    color: rgb(255, 162.3, 25.5);
 }
 
 .text-hover-warning-light-1:hover {
-  color: rgb(255, 162.3, 25.5);
+    color: rgb(255, 162.3, 25.5);
 }
 
 .bg-warning-light-1 {
-  background-color: rgb(255, 162.3, 25.5);
+    background-color: rgb(255, 162.3, 25.5);
 }
 
 .text-warning-light-2 {
-  color: rgb(255, 172.6, 51);
+    color: rgb(255, 172.6, 51);
 }
 
 .text-hover-warning-light-2:hover {
-  color: rgb(255, 172.6, 51);
+    color: rgb(255, 172.6, 51);
 }
 
 .bg-warning-light-2 {
-  background-color: rgb(255, 172.6, 51);
+    background-color: rgb(255, 172.6, 51);
 }
 
 .text-warning-light-3 {
-  color: rgb(255, 182.9, 76.5);
+    color: rgb(255, 182.9, 76.5);
 }
 
 .text-hover-warning-light-3:hover {
-  color: rgb(255, 182.9, 76.5);
+    color: rgb(255, 182.9, 76.5);
 }
 
 .bg-warning-light-3 {
-  background-color: rgb(255, 182.9, 76.5);
+    background-color: rgb(255, 182.9, 76.5);
 }
 
 .text-warning-light-4 {
-  color: rgb(255, 193.2, 102);
+    color: rgb(255, 193.2, 102);
 }
 
 .text-hover-warning-light-4:hover {
-  color: rgb(255, 193.2, 102);
+    color: rgb(255, 193.2, 102);
 }
 
 .bg-warning-light-4 {
-  background-color: rgb(255, 193.2, 102);
+    background-color: rgb(255, 193.2, 102);
 }
 
 .text-warning-light-5 {
-  color: rgb(255, 203.5, 127.5);
+    color: rgb(255, 203.5, 127.5);
 }
 
 .text-hover-warning-light-5:hover {
-  color: rgb(255, 203.5, 127.5);
+    color: rgb(255, 203.5, 127.5);
 }
 
 .bg-warning-light-5 {
-  background-color: rgb(255, 203.5, 127.5);
+    background-color: rgb(255, 203.5, 127.5);
 }
 
 .text-warning-light-6 {
-  color: rgb(255, 213.8, 153);
+    color: rgb(255, 213.8, 153);
 }
 
 .text-hover-warning-light-6:hover {
-  color: rgb(255, 213.8, 153);
+    color: rgb(255, 213.8, 153);
 }
 
 .bg-warning-light-6 {
-  background-color: rgb(255, 213.8, 153);
+    background-color: rgb(255, 213.8, 153);
 }
 
 .text-warning-light-7 {
-  color: rgb(255, 224.1, 178.5);
+    color: rgb(255, 224.1, 178.5);
 }
 
 .text-hover-warning-light-7:hover {
-  color: rgb(255, 224.1, 178.5);
+    color: rgb(255, 224.1, 178.5);
 }
 
 .bg-warning-light-7 {
-  background-color: rgb(255, 224.1, 178.5);
+    background-color: rgb(255, 224.1, 178.5);
 }
 
 .text-warning-light-8 {
-  color: rgb(255, 234.4, 204);
+    color: rgb(255, 234.4, 204);
 }
 
 .text-hover-warning-light-8:hover {
-  color: rgb(255, 234.4, 204);
+    color: rgb(255, 234.4, 204);
 }
 
 .bg-warning-light-8 {
-  background-color: rgb(255, 234.4, 204);
+    background-color: rgb(255, 234.4, 204);
 }
 
 .text-warning-light-9 {
-  color: rgb(255, 244.7, 229.5);
+    color: rgb(255, 244.7, 229.5);
 }
 
 .text-hover-warning-light-9:hover {
-  color: rgb(255, 244.7, 229.5);
+    color: rgb(255, 244.7, 229.5);
 }
 
 .bg-warning-light-9 {
-  background-color: rgb(255, 244.7, 229.5);
+    background-color: rgb(255, 244.7, 229.5);
 }
 
 .text-btn-danger {
-  color: #d32f2f;
+    color: #d32f2f;
 }
 
 .text-hover-btn-danger:hover {
-  color: #d32f2f;
+    color: #d32f2f;
 }
 
 .bg-btn-danger {
-  background-color: #d32f2f;
+    background-color: #d32f2f;
 }
 
 .text-btn-danger-dark-1 {
-  color: rgb(189.9, 42.3, 42.3);
+    color: rgb(189.9, 42.3, 42.3);
 }
 
 .text-hover-btn-danger-dark-1:hover {
-  color: rgb(189.9, 42.3, 42.3);
+    color: rgb(189.9, 42.3, 42.3);
 }
 
 .bg-btn-danger-dark-1 {
-  background-color: rgb(189.9, 42.3, 42.3);
+    background-color: rgb(189.9, 42.3, 42.3);
 }
 
 .text-btn-danger-dark-2 {
-  color: rgb(168.8, 37.6, 37.6);
+    color: rgb(168.8, 37.6, 37.6);
 }
 
 .text-hover-btn-danger-dark-2:hover {
-  color: rgb(168.8, 37.6, 37.6);
+    color: rgb(168.8, 37.6, 37.6);
 }
 
 .bg-btn-danger-dark-2 {
-  background-color: rgb(168.8, 37.6, 37.6);
+    background-color: rgb(168.8, 37.6, 37.6);
 }
 
 .text-btn-danger-dark-3 {
-  color: rgb(147.7, 32.9, 32.9);
+    color: rgb(147.7, 32.9, 32.9);
 }
 
 .text-hover-btn-danger-dark-3:hover {
-  color: rgb(147.7, 32.9, 32.9);
+    color: rgb(147.7, 32.9, 32.9);
 }
 
 .bg-btn-danger-dark-3 {
-  background-color: rgb(147.7, 32.9, 32.9);
+    background-color: rgb(147.7, 32.9, 32.9);
 }
 
 .text-btn-danger-dark-4 {
-  color: rgb(126.6, 28.2, 28.2);
+    color: rgb(126.6, 28.2, 28.2);
 }
 
 .text-hover-btn-danger-dark-4:hover {
-  color: rgb(126.6, 28.2, 28.2);
+    color: rgb(126.6, 28.2, 28.2);
 }
 
 .bg-btn-danger-dark-4 {
-  background-color: rgb(126.6, 28.2, 28.2);
+    background-color: rgb(126.6, 28.2, 28.2);
 }
 
 .text-btn-danger-dark-5 {
-  color: rgb(105.5, 23.5, 23.5);
+    color: rgb(105.5, 23.5, 23.5);
 }
 
 .text-hover-btn-danger-dark-5:hover {
-  color: rgb(105.5, 23.5, 23.5);
+    color: rgb(105.5, 23.5, 23.5);
 }
 
 .bg-btn-danger-dark-5 {
-  background-color: rgb(105.5, 23.5, 23.5);
+    background-color: rgb(105.5, 23.5, 23.5);
 }
 
 .text-btn-danger-dark-6 {
-  color: rgb(84.4, 18.8, 18.8);
+    color: rgb(84.4, 18.8, 18.8);
 }
 
 .text-hover-btn-danger-dark-6:hover {
-  color: rgb(84.4, 18.8, 18.8);
+    color: rgb(84.4, 18.8, 18.8);
 }
 
 .bg-btn-danger-dark-6 {
-  background-color: rgb(84.4, 18.8, 18.8);
+    background-color: rgb(84.4, 18.8, 18.8);
 }
 
 .text-btn-danger-dark-7 {
-  color: rgb(63.3, 14.1, 14.1);
+    color: rgb(63.3, 14.1, 14.1);
 }
 
 .text-hover-btn-danger-dark-7:hover {
-  color: rgb(63.3, 14.1, 14.1);
+    color: rgb(63.3, 14.1, 14.1);
 }
 
 .bg-btn-danger-dark-7 {
-  background-color: rgb(63.3, 14.1, 14.1);
+    background-color: rgb(63.3, 14.1, 14.1);
 }
 
 .text-btn-danger-dark-8 {
-  color: rgb(42.2, 9.4, 9.4);
+    color: rgb(42.2, 9.4, 9.4);
 }
 
 .text-hover-btn-danger-dark-8:hover {
-  color: rgb(42.2, 9.4, 9.4);
+    color: rgb(42.2, 9.4, 9.4);
 }
 
 .bg-btn-danger-dark-8 {
-  background-color: rgb(42.2, 9.4, 9.4);
+    background-color: rgb(42.2, 9.4, 9.4);
 }
 
 .text-btn-danger-dark-9 {
-  color: rgb(21.1, 4.7, 4.7);
+    color: rgb(21.1, 4.7, 4.7);
 }
 
 .text-hover-btn-danger-dark-9:hover {
-  color: rgb(21.1, 4.7, 4.7);
+    color: rgb(21.1, 4.7, 4.7);
 }
 
 .bg-btn-danger-dark-9 {
-  background-color: rgb(21.1, 4.7, 4.7);
+    background-color: rgb(21.1, 4.7, 4.7);
 }
 
 .text-btn-danger-light-1 {
-  color: rgb(215.4, 67.8, 67.8);
+    color: rgb(215.4, 67.8, 67.8);
 }
 
 .text-hover-btn-danger-light-1:hover {
-  color: rgb(215.4, 67.8, 67.8);
+    color: rgb(215.4, 67.8, 67.8);
 }
 
 .bg-btn-danger-light-1 {
-  background-color: rgb(215.4, 67.8, 67.8);
+    background-color: rgb(215.4, 67.8, 67.8);
 }
 
 .text-btn-danger-light-2 {
-  color: rgb(219.8, 88.6, 88.6);
+    color: rgb(219.8, 88.6, 88.6);
 }
 
 .text-hover-btn-danger-light-2:hover {
-  color: rgb(219.8, 88.6, 88.6);
+    color: rgb(219.8, 88.6, 88.6);
 }
 
 .bg-btn-danger-light-2 {
-  background-color: rgb(219.8, 88.6, 88.6);
+    background-color: rgb(219.8, 88.6, 88.6);
 }
 
 .text-btn-danger-light-3 {
-  color: rgb(224.2, 109.4, 109.4);
+    color: rgb(224.2, 109.4, 109.4);
 }
 
 .text-hover-btn-danger-light-3:hover {
-  color: rgb(224.2, 109.4, 109.4);
+    color: rgb(224.2, 109.4, 109.4);
 }
 
 .bg-btn-danger-light-3 {
-  background-color: rgb(224.2, 109.4, 109.4);
+    background-color: rgb(224.2, 109.4, 109.4);
 }
 
 .text-btn-danger-light-4 {
-  color: rgb(228.6, 130.2, 130.2);
+    color: rgb(228.6, 130.2, 130.2);
 }
 
 .text-hover-btn-danger-light-4:hover {
-  color: rgb(228.6, 130.2, 130.2);
+    color: rgb(228.6, 130.2, 130.2);
 }
 
 .bg-btn-danger-light-4 {
-  background-color: rgb(228.6, 130.2, 130.2);
+    background-color: rgb(228.6, 130.2, 130.2);
 }
 
 .text-btn-danger-light-5 {
-  color: #e99797;
+    color: #e99797;
 }
 
 .text-hover-btn-danger-light-5:hover {
-  color: #e99797;
+    color: #e99797;
 }
 
 .bg-btn-danger-light-5 {
-  background-color: #e99797;
+    background-color: #e99797;
 }
 
 .text-btn-danger-light-6 {
-  color: rgb(237.4, 171.8, 171.8);
+    color: rgb(237.4, 171.8, 171.8);
 }
 
 .text-hover-btn-danger-light-6:hover {
-  color: rgb(237.4, 171.8, 171.8);
+    color: rgb(237.4, 171.8, 171.8);
 }
 
 .bg-btn-danger-light-6 {
-  background-color: rgb(237.4, 171.8, 171.8);
+    background-color: rgb(237.4, 171.8, 171.8);
 }
 
 .text-btn-danger-light-7 {
-  color: rgb(241.8, 192.6, 192.6);
+    color: rgb(241.8, 192.6, 192.6);
 }
 
 .text-hover-btn-danger-light-7:hover {
-  color: rgb(241.8, 192.6, 192.6);
+    color: rgb(241.8, 192.6, 192.6);
 }
 
 .bg-btn-danger-light-7 {
-  background-color: rgb(241.8, 192.6, 192.6);
+    background-color: rgb(241.8, 192.6, 192.6);
 }
 
 .text-btn-danger-light-8 {
-  color: rgb(246.2, 213.4, 213.4);
+    color: rgb(246.2, 213.4, 213.4);
 }
 
 .text-hover-btn-danger-light-8:hover {
-  color: rgb(246.2, 213.4, 213.4);
+    color: rgb(246.2, 213.4, 213.4);
 }
 
 .bg-btn-danger-light-8 {
-  background-color: rgb(246.2, 213.4, 213.4);
+    background-color: rgb(246.2, 213.4, 213.4);
 }
 
 .text-btn-danger-light-9 {
-  color: rgb(250.6, 234.2, 234.2);
+    color: rgb(250.6, 234.2, 234.2);
 }
 
 .text-hover-btn-danger-light-9:hover {
-  color: rgb(250.6, 234.2, 234.2);
+    color: rgb(250.6, 234.2, 234.2);
 }
 
 .bg-btn-danger-light-9 {
-  background-color: rgb(250.6, 234.2, 234.2);
+    background-color: rgb(250.6, 234.2, 234.2);
 }
 
 .text-btn-primary {
-  color: #1976d2;
+    color: #1976d2;
 }
 
 .text-hover-btn-primary:hover {
-  color: #1976d2;
+    color: #1976d2;
 }
 
 .bg-btn-primary {
-  background-color: #1976d2;
+    background-color: #1976d2;
 }
 
 .text-btn-primary-dark-1 {
-  color: rgb(22.5, 106.2, 189);
+    color: rgb(22.5, 106.2, 189);
 }
 
 .text-hover-btn-primary-dark-1:hover {
-  color: rgb(22.5, 106.2, 189);
+    color: rgb(22.5, 106.2, 189);
 }
 
 .bg-btn-primary-dark-1 {
-  background-color: rgb(22.5, 106.2, 189);
+    background-color: rgb(22.5, 106.2, 189);
 }
 
 .text-btn-primary-dark-2 {
-  color: rgb(20, 94.4, 168);
+    color: rgb(20, 94.4, 168);
 }
 
 .text-hover-btn-primary-dark-2:hover {
-  color: rgb(20, 94.4, 168);
+    color: rgb(20, 94.4, 168);
 }
 
 .bg-btn-primary-dark-2 {
-  background-color: rgb(20, 94.4, 168);
+    background-color: rgb(20, 94.4, 168);
 }
 
 .text-btn-primary-dark-3 {
-  color: rgb(17.5, 82.6, 147);
+    color: rgb(17.5, 82.6, 147);
 }
 
 .text-hover-btn-primary-dark-3:hover {
-  color: rgb(17.5, 82.6, 147);
+    color: rgb(17.5, 82.6, 147);
 }
 
 .bg-btn-primary-dark-3 {
-  background-color: rgb(17.5, 82.6, 147);
+    background-color: rgb(17.5, 82.6, 147);
 }
 
 .text-btn-primary-dark-4 {
-  color: rgb(15, 70.8, 126);
+    color: rgb(15, 70.8, 126);
 }
 
 .text-hover-btn-primary-dark-4:hover {
-  color: rgb(15, 70.8, 126);
+    color: rgb(15, 70.8, 126);
 }
 
 .bg-btn-primary-dark-4 {
-  background-color: rgb(15, 70.8, 126);
+    background-color: rgb(15, 70.8, 126);
 }
 
 .text-btn-primary-dark-5 {
-  color: rgb(12.5, 59, 105);
+    color: rgb(12.5, 59, 105);
 }
 
 .text-hover-btn-primary-dark-5:hover {
-  color: rgb(12.5, 59, 105);
+    color: rgb(12.5, 59, 105);
 }
 
 .bg-btn-primary-dark-5 {
-  background-color: rgb(12.5, 59, 105);
+    background-color: rgb(12.5, 59, 105);
 }
 
 .text-btn-primary-dark-6 {
-  color: rgb(10, 47.2, 84);
+    color: rgb(10, 47.2, 84);
 }
 
 .text-hover-btn-primary-dark-6:hover {
-  color: rgb(10, 47.2, 84);
+    color: rgb(10, 47.2, 84);
 }
 
 .bg-btn-primary-dark-6 {
-  background-color: rgb(10, 47.2, 84);
+    background-color: rgb(10, 47.2, 84);
 }
 
 .text-btn-primary-dark-7 {
-  color: rgb(7.5, 35.4, 63);
+    color: rgb(7.5, 35.4, 63);
 }
 
 .text-hover-btn-primary-dark-7:hover {
-  color: rgb(7.5, 35.4, 63);
+    color: rgb(7.5, 35.4, 63);
 }
 
 .bg-btn-primary-dark-7 {
-  background-color: rgb(7.5, 35.4, 63);
+    background-color: rgb(7.5, 35.4, 63);
 }
 
 .text-btn-primary-dark-8 {
-  color: rgb(5, 23.6, 42);
+    color: rgb(5, 23.6, 42);
 }
 
 .text-hover-btn-primary-dark-8:hover {
-  color: rgb(5, 23.6, 42);
+    color: rgb(5, 23.6, 42);
 }
 
 .bg-btn-primary-dark-8 {
-  background-color: rgb(5, 23.6, 42);
+    background-color: rgb(5, 23.6, 42);
 }
 
 .text-btn-primary-dark-9 {
-  color: rgb(2.5, 11.8, 21);
+    color: rgb(2.5, 11.8, 21);
 }
 
 .text-hover-btn-primary-dark-9:hover {
-  color: rgb(2.5, 11.8, 21);
+    color: rgb(2.5, 11.8, 21);
 }
 
 .bg-btn-primary-dark-9 {
-  background-color: rgb(2.5, 11.8, 21);
+    background-color: rgb(2.5, 11.8, 21);
 }
 
 .text-btn-primary-light-1 {
-  color: rgb(48, 131.7, 214.5);
+    color: rgb(48, 131.7, 214.5);
 }
 
 .text-hover-btn-primary-light-1:hover {
-  color: rgb(48, 131.7, 214.5);
+    color: rgb(48, 131.7, 214.5);
 }
 
 .bg-btn-primary-light-1 {
-  background-color: rgb(48, 131.7, 214.5);
+    background-color: rgb(48, 131.7, 214.5);
 }
 
 .text-btn-primary-light-2 {
-  color: rgb(71, 145.4, 219);
+    color: rgb(71, 145.4, 219);
 }
 
 .text-hover-btn-primary-light-2:hover {
-  color: rgb(71, 145.4, 219);
+    color: rgb(71, 145.4, 219);
 }
 
 .bg-btn-primary-light-2 {
-  background-color: rgb(71, 145.4, 219);
+    background-color: rgb(71, 145.4, 219);
 }
 
 .text-btn-primary-light-3 {
-  color: rgb(94, 159.1, 223.5);
+    color: rgb(94, 159.1, 223.5);
 }
 
 .text-hover-btn-primary-light-3:hover {
-  color: rgb(94, 159.1, 223.5);
+    color: rgb(94, 159.1, 223.5);
 }
 
 .bg-btn-primary-light-3 {
-  background-color: rgb(94, 159.1, 223.5);
+    background-color: rgb(94, 159.1, 223.5);
 }
 
 .text-btn-primary-light-4 {
-  color: rgb(117, 172.8, 228);
+    color: rgb(117, 172.8, 228);
 }
 
 .text-hover-btn-primary-light-4:hover {
-  color: rgb(117, 172.8, 228);
+    color: rgb(117, 172.8, 228);
 }
 
 .bg-btn-primary-light-4 {
-  background-color: rgb(117, 172.8, 228);
+    background-color: rgb(117, 172.8, 228);
 }
 
 .text-btn-primary-light-5 {
-  color: rgb(140, 186.5, 232.5);
+    color: rgb(140, 186.5, 232.5);
 }
 
 .text-hover-btn-primary-light-5:hover {
-  color: rgb(140, 186.5, 232.5);
+    color: rgb(140, 186.5, 232.5);
 }
 
 .bg-btn-primary-light-5 {
-  background-color: rgb(140, 186.5, 232.5);
+    background-color: rgb(140, 186.5, 232.5);
 }
 
 .text-btn-primary-light-6 {
-  color: rgb(163, 200.2, 237);
+    color: rgb(163, 200.2, 237);
 }
 
 .text-hover-btn-primary-light-6:hover {
-  color: rgb(163, 200.2, 237);
+    color: rgb(163, 200.2, 237);
 }
 
 .bg-btn-primary-light-6 {
-  background-color: rgb(163, 200.2, 237);
+    background-color: rgb(163, 200.2, 237);
 }
 
 .text-btn-primary-light-7 {
-  color: rgb(186, 213.9, 241.5);
+    color: rgb(186, 213.9, 241.5);
 }
 
 .text-hover-btn-primary-light-7:hover {
-  color: rgb(186, 213.9, 241.5);
+    color: rgb(186, 213.9, 241.5);
 }
 
 .bg-btn-primary-light-7 {
-  background-color: rgb(186, 213.9, 241.5);
+    background-color: rgb(186, 213.9, 241.5);
 }
 
 .text-btn-primary-light-8 {
-  color: rgb(209, 227.6, 246);
+    color: rgb(209, 227.6, 246);
 }
 
 .text-hover-btn-primary-light-8:hover {
-  color: rgb(209, 227.6, 246);
+    color: rgb(209, 227.6, 246);
 }
 
 .bg-btn-primary-light-8 {
-  background-color: rgb(209, 227.6, 246);
+    background-color: rgb(209, 227.6, 246);
 }
 
 .text-btn-primary-light-9 {
-  color: rgb(232, 241.3, 250.5);
+    color: rgb(232, 241.3, 250.5);
 }
 
 .text-hover-btn-primary-light-9:hover {
-  color: rgb(232, 241.3, 250.5);
+    color: rgb(232, 241.3, 250.5);
 }
 
 .bg-btn-primary-light-9 {
-  background-color: rgb(232, 241.3, 250.5);
+    background-color: rgb(232, 241.3, 250.5);
 }
 
 .text-btn-success {
-  color: #388e3c;
+    color: #388e3c;
 }
 
 .text-hover-btn-success:hover {
-  color: #388e3c;
+    color: #388e3c;
 }
 
 .bg-btn-success {
-  background-color: #388e3c;
+    background-color: #388e3c;
 }
 
 .text-btn-success-dark-1 {
-  color: rgb(50.4, 127.8, 54);
+    color: rgb(50.4, 127.8, 54);
 }
 
 .text-hover-btn-success-dark-1:hover {
-  color: rgb(50.4, 127.8, 54);
+    color: rgb(50.4, 127.8, 54);
 }
 
 .bg-btn-success-dark-1 {
-  background-color: rgb(50.4, 127.8, 54);
+    background-color: rgb(50.4, 127.8, 54);
 }
 
 .text-btn-success-dark-2 {
-  color: rgb(44.8, 113.6, 48);
+    color: rgb(44.8, 113.6, 48);
 }
 
 .text-hover-btn-success-dark-2:hover {
-  color: rgb(44.8, 113.6, 48);
+    color: rgb(44.8, 113.6, 48);
 }
 
 .bg-btn-success-dark-2 {
-  background-color: rgb(44.8, 113.6, 48);
+    background-color: rgb(44.8, 113.6, 48);
 }
 
 .text-btn-success-dark-3 {
-  color: rgb(39.2, 99.4, 42);
+    color: rgb(39.2, 99.4, 42);
 }
 
 .text-hover-btn-success-dark-3:hover {
-  color: rgb(39.2, 99.4, 42);
+    color: rgb(39.2, 99.4, 42);
 }
 
 .bg-btn-success-dark-3 {
-  background-color: rgb(39.2, 99.4, 42);
+    background-color: rgb(39.2, 99.4, 42);
 }
 
 .text-btn-success-dark-4 {
-  color: rgb(33.6, 85.2, 36);
+    color: rgb(33.6, 85.2, 36);
 }
 
 .text-hover-btn-success-dark-4:hover {
-  color: rgb(33.6, 85.2, 36);
+    color: rgb(33.6, 85.2, 36);
 }
 
 .bg-btn-success-dark-4 {
-  background-color: rgb(33.6, 85.2, 36);
+    background-color: rgb(33.6, 85.2, 36);
 }
 
 .text-btn-success-dark-5 {
-  color: #1c471e;
+    color: #1c471e;
 }
 
 .text-hover-btn-success-dark-5:hover {
-  color: #1c471e;
+    color: #1c471e;
 }
 
 .bg-btn-success-dark-5 {
-  background-color: #1c471e;
+    background-color: #1c471e;
 }
 
 .text-btn-success-dark-6 {
-  color: rgb(22.4, 56.8, 24);
+    color: rgb(22.4, 56.8, 24);
 }
 
 .text-hover-btn-success-dark-6:hover {
-  color: rgb(22.4, 56.8, 24);
+    color: rgb(22.4, 56.8, 24);
 }
 
 .bg-btn-success-dark-6 {
-  background-color: rgb(22.4, 56.8, 24);
+    background-color: rgb(22.4, 56.8, 24);
 }
 
 .text-btn-success-dark-7 {
-  color: rgb(16.8, 42.6, 18);
+    color: rgb(16.8, 42.6, 18);
 }
 
 .text-hover-btn-success-dark-7:hover {
-  color: rgb(16.8, 42.6, 18);
+    color: rgb(16.8, 42.6, 18);
 }
 
 .bg-btn-success-dark-7 {
-  background-color: rgb(16.8, 42.6, 18);
+    background-color: rgb(16.8, 42.6, 18);
 }
 
 .text-btn-success-dark-8 {
-  color: rgb(11.2, 28.4, 12);
+    color: rgb(11.2, 28.4, 12);
 }
 
 .text-hover-btn-success-dark-8:hover {
-  color: rgb(11.2, 28.4, 12);
+    color: rgb(11.2, 28.4, 12);
 }
 
 .bg-btn-success-dark-8 {
-  background-color: rgb(11.2, 28.4, 12);
+    background-color: rgb(11.2, 28.4, 12);
 }
 
 .text-btn-success-dark-9 {
-  color: rgb(5.6, 14.2, 6);
+    color: rgb(5.6, 14.2, 6);
 }
 
 .text-hover-btn-success-dark-9:hover {
-  color: rgb(5.6, 14.2, 6);
+    color: rgb(5.6, 14.2, 6);
 }
 
 .bg-btn-success-dark-9 {
-  background-color: rgb(5.6, 14.2, 6);
+    background-color: rgb(5.6, 14.2, 6);
 }
 
 .text-btn-success-light-1 {
-  color: rgb(75.9, 153.3, 79.5);
+    color: rgb(75.9, 153.3, 79.5);
 }
 
 .text-hover-btn-success-light-1:hover {
-  color: rgb(75.9, 153.3, 79.5);
+    color: rgb(75.9, 153.3, 79.5);
 }
 
 .bg-btn-success-light-1 {
-  background-color: rgb(75.9, 153.3, 79.5);
+    background-color: rgb(75.9, 153.3, 79.5);
 }
 
 .text-btn-success-light-2 {
-  color: rgb(95.8, 164.6, 99);
+    color: rgb(95.8, 164.6, 99);
 }
 
 .text-hover-btn-success-light-2:hover {
-  color: rgb(95.8, 164.6, 99);
+    color: rgb(95.8, 164.6, 99);
 }
 
 .bg-btn-success-light-2 {
-  background-color: rgb(95.8, 164.6, 99);
+    background-color: rgb(95.8, 164.6, 99);
 }
 
 .text-btn-success-light-3 {
-  color: rgb(115.7, 175.9, 118.5);
+    color: rgb(115.7, 175.9, 118.5);
 }
 
 .text-hover-btn-success-light-3:hover {
-  color: rgb(115.7, 175.9, 118.5);
+    color: rgb(115.7, 175.9, 118.5);
 }
 
 .bg-btn-success-light-3 {
-  background-color: rgb(115.7, 175.9, 118.5);
+    background-color: rgb(115.7, 175.9, 118.5);
 }
 
 .text-btn-success-light-4 {
-  color: rgb(135.6, 187.2, 138);
+    color: rgb(135.6, 187.2, 138);
 }
 
 .text-hover-btn-success-light-4:hover {
-  color: rgb(135.6, 187.2, 138);
+    color: rgb(135.6, 187.2, 138);
 }
 
 .bg-btn-success-light-4 {
-  background-color: rgb(135.6, 187.2, 138);
+    background-color: rgb(135.6, 187.2, 138);
 }
 
 .text-btn-success-light-5 {
-  color: rgb(155.5, 198.5, 157.5);
+    color: rgb(155.5, 198.5, 157.5);
 }
 
 .text-hover-btn-success-light-5:hover {
-  color: rgb(155.5, 198.5, 157.5);
+    color: rgb(155.5, 198.5, 157.5);
 }
 
 .bg-btn-success-light-5 {
-  background-color: rgb(155.5, 198.5, 157.5);
+    background-color: rgb(155.5, 198.5, 157.5);
 }
 
 .text-btn-success-light-6 {
-  color: rgb(175.4, 209.8, 177);
+    color: rgb(175.4, 209.8, 177);
 }
 
 .text-hover-btn-success-light-6:hover {
-  color: rgb(175.4, 209.8, 177);
+    color: rgb(175.4, 209.8, 177);
 }
 
 .bg-btn-success-light-6 {
-  background-color: rgb(175.4, 209.8, 177);
+    background-color: rgb(175.4, 209.8, 177);
 }
 
 .text-btn-success-light-7 {
-  color: rgb(195.3, 221.1, 196.5);
+    color: rgb(195.3, 221.1, 196.5);
 }
 
 .text-hover-btn-success-light-7:hover {
-  color: rgb(195.3, 221.1, 196.5);
+    color: rgb(195.3, 221.1, 196.5);
 }
 
 .bg-btn-success-light-7 {
-  background-color: rgb(195.3, 221.1, 196.5);
+    background-color: rgb(195.3, 221.1, 196.5);
 }
 
 .text-btn-success-light-8 {
-  color: rgb(215.2, 232.4, 216);
+    color: rgb(215.2, 232.4, 216);
 }
 
 .text-hover-btn-success-light-8:hover {
-  color: rgb(215.2, 232.4, 216);
+    color: rgb(215.2, 232.4, 216);
 }
 
 .bg-btn-success-light-8 {
-  background-color: rgb(215.2, 232.4, 216);
+    background-color: rgb(215.2, 232.4, 216);
 }
 
 .text-btn-success-light-9 {
-  color: rgb(235.1, 243.7, 235.5);
+    color: rgb(235.1, 243.7, 235.5);
 }
 
 .text-hover-btn-success-light-9:hover {
-  color: rgb(235.1, 243.7, 235.5);
+    color: rgb(235.1, 243.7, 235.5);
 }
 
 .bg-btn-success-light-9 {
-  background-color: rgb(235.1, 243.7, 235.5);
+    background-color: rgb(235.1, 243.7, 235.5);
 }
 
 .btn {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #e2e2e2;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #e2e2e2;
 }
 
 .btn-primary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #5bc5f4;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #5bc5f4;
 }
 .btn-primary:hover {
-  background-color: rgb(114.8971428571, 205.4514285714, 245.6028571429);
+    background-color: rgb(114.8971428571, 205.4514285714, 245.6028571429);
 }
 
 .btn-outlined-primary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #5bc5f4;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #5bc5f4;
 }
 .btn-outlined-primary:hover {
-  background-color: #5bc5f4;
+    background-color: #5bc5f4;
 }
 
 .btn-complement-primary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #5bc5f4;
-  color: hsl(18.431372549, 87.4285714286%, 105.6862745098%);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #5bc5f4;
+    color: hsl(18.431372549, 87.4285714286%, 105.6862745098%);
 }
 .btn-complement-primary:hover {
-  color: #5bc5f4;
-  background-color: hsl(18.431372549, 87.4285714286%, 105.6862745098%);
+    color: #5bc5f4;
+    background-color: hsl(18.431372549, 87.4285714286%, 105.6862745098%);
 }
 
 .btn-secondary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #0872b9;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #0872b9;
 }
 .btn-secondary:hover {
-  background-color: rgb(9.0569948187, 129.0621761658, 209.4430051813);
+    background-color: rgb(9.0569948187, 129.0621761658, 209.4430051813);
 }
 
 .btn-outlined-secondary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #0872b9;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #0872b9;
 }
 .btn-outlined-secondary:hover {
-  background-color: #0872b9;
+    background-color: #0872b9;
 }
 
 .btn-complement-secondary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #0872b9;
-  color: rgb(250.3160621762, 188.2538860104, 146.6839378238);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #0872b9;
+    color: rgb(250.3160621762, 188.2538860104, 146.6839378238);
 }
 .btn-complement-secondary:hover {
-  color: #0872b9;
-  background-color: rgb(250.3160621762, 188.2538860104, 146.6839378238);
+    color: #0872b9;
+    background-color: rgb(250.3160621762, 188.2538860104, 146.6839378238);
 }
 
 .btn-light {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
 }
 .btn-light:hover {
-  background-color: rgb(253.75, 253.75, 253.75);
+    background-color: rgb(253.75, 253.75, 253.75);
 }
 
 .btn-outlined-light {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #f1f1f1;
 }
 .btn-outlined-light:hover {
-  background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .btn-complement-light {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #f1f1f1;
-  color: hsl(0, 0%, 134.5098039216%);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f1f1f1;
+    color: hsl(0, 0%, 134.5098039216%);
 }
 .btn-complement-light:hover {
-  color: #f1f1f1;
-  background-color: hsl(0, 0%, 134.5098039216%);
+    color: #f1f1f1;
+    background-color: hsl(0, 0%, 134.5098039216%);
 }
 
 .btn-white {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
 }
 .btn-white:hover {
-  background-color: hsl(0, 0%, 105%);
+    background-color: hsl(0, 0%, 105%);
 }
 
 .btn-outlined-white {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
 }
 .btn-outlined-white:hover {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .btn-complement-white {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  color: hsl(0, 0%, 140%);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: hsl(0, 0%, 140%);
 }
 .btn-complement-white:hover {
-  color: #ffffff;
-  background-color: hsl(0, 0%, 140%);
+    color: #ffffff;
+    background-color: hsl(0, 0%, 140%);
 }
 
 .btn-black {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #000000;
 }
 .btn-black:hover {
-  background-color: rgb(12.75, 12.75, 12.75);
+    background-color: rgb(12.75, 12.75, 12.75);
 }
 
 .btn-outlined-black {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #000000;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
 }
 .btn-outlined-black:hover {
-  background-color: #000000;
+    background-color: #000000;
 }
 
 .btn-complement-black {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #000000;
-  color: #666666;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #666666;
 }
 .btn-complement-black:hover {
-  color: #000000;
-  background-color: #666666;
+    color: #000000;
+    background-color: #666666;
 }
 
 .btn-medium-dark {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #555555;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #555555;
 }
 .btn-medium-dark:hover {
-  background-color: rgb(97.75, 97.75, 97.75);
+    background-color: rgb(97.75, 97.75, 97.75);
 }
 
 .btn-outlined-medium-dark {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #555555;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #555555;
 }
 .btn-outlined-medium-dark:hover {
-  background-color: #555555;
+    background-color: #555555;
 }
 
 .btn-complement-medium-dark {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #555555;
-  color: #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #555555;
+    color: #bbbbbb;
 }
 .btn-complement-medium-dark:hover {
-  color: #555555;
-  background-color: #bbbbbb;
+    color: #555555;
+    background-color: #bbbbbb;
 }
 
 .btn-overly-dark {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 .btn-overly-dark:hover {
-  background-color: rgba(12.75, 12.75, 12.75, 0.6);
+    background-color: rgba(12.75, 12.75, 12.75, 0.6);
 }
 
 .btn-outlined-overly-dark {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.6);
 }
 .btn-outlined-overly-dark:hover {
-  background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .btn-complement-overly-dark {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: rgba(102, 102, 102, 0.6);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgba(102, 102, 102, 0.6);
 }
 .btn-complement-overly-dark:hover {
-  color: rgba(0, 0, 0, 0.6);
-  background-color: rgba(102, 102, 102, 0.6);
+    color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(102, 102, 102, 0.6);
 }
 
 .btn-accent {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ff4081;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ff4081;
 }
 .btn-accent:hover {
-  background-color: rgb(255, 89.5, 145.8219895288);
+    background-color: rgb(255, 89.5, 145.8219895288);
 }
 
 .btn-outlined-accent {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #ff4081;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ff4081;
 }
 .btn-outlined-accent:hover {
-  background-color: #ff4081;
+    background-color: #ff4081;
 }
 
 .btn-complement-accent {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ff4081;
-  color: hsl(159.5811518325, 100%, 102.5490196078%);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ff4081;
+    color: hsl(159.5811518325, 100%, 102.5490196078%);
 }
 .btn-complement-accent:hover {
-  color: #ff4081;
-  background-color: hsl(159.5811518325, 100%, 102.5490196078%);
+    color: #ff4081;
+    background-color: hsl(159.5811518325, 100%, 102.5490196078%);
 }
 
 .btn-background {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #f4f4f4;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
 }
 .btn-background:hover {
-  background-color: hsl(0, 0%, 100.6862745098%);
+    background-color: hsl(0, 0%, 100.6862745098%);
 }
 
 .btn-outlined-background {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #f4f4f4;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #f4f4f4;
 }
 .btn-outlined-background:hover {
-  background-color: #f4f4f4;
+    background-color: #f4f4f4;
 }
 
 .btn-complement-background {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #f4f4f4;
-  color: hsl(0, 0%, 135.6862745098%);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+    color: hsl(0, 0%, 135.6862745098%);
 }
 .btn-complement-background:hover {
-  color: #f4f4f4;
-  background-color: hsl(0, 0%, 135.6862745098%);
+    color: #f4f4f4;
+    background-color: hsl(0, 0%, 135.6862745098%);
 }
 
 .btn-highlight {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffeb3b;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffeb3b;
 }
 .btn-highlight:hover {
-  background-color: rgb(255, 237.6020408163, 84.5);
+    background-color: rgb(255, 237.6020408163, 84.5);
 }
 
 .btn-outlined-highlight {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #ffeb3b;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ffeb3b;
 }
 .btn-outlined-highlight:hover {
-  background-color: #ffeb3b;
+    background-color: #ffeb3b;
 }
 
 .btn-complement-highlight {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffeb3b;
-  color: hsl(233.8775510204, 100%, 101.568627451%);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffeb3b;
+    color: hsl(233.8775510204, 100%, 101.568627451%);
 }
 .btn-complement-highlight:hover {
-  color: #ffeb3b;
-  background-color: hsl(233.8775510204, 100%, 101.568627451%);
+    color: #ffeb3b;
+    background-color: hsl(233.8775510204, 100%, 101.568627451%);
 }
 
 .btn-error {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #f44336;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f44336;
 }
 .btn-error:hover {
-  background-color: rgb(245.3231132075, 89.6132075472, 78.1768867925);
+    background-color: rgb(245.3231132075, 89.6132075472, 78.1768867925);
 }
 
 .btn-outlined-error {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #f44336;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #f44336;
 }
 .btn-outlined-error:hover {
-  background-color: #f44336;
+    background-color: #f44336;
 }
 
 .btn-complement-error {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #f44336;
-  color: rgb(247.4150943396, 254.0943396226, 254.5849056604);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f44336;
+    color: rgb(247.4150943396, 254.0943396226, 254.5849056604);
 }
 .btn-complement-error:hover {
-  color: #f44336;
-  background-color: rgb(247.4150943396, 254.0943396226, 254.5849056604);
+    color: #f44336;
+    background-color: rgb(247.4150943396, 254.0943396226, 254.5849056604);
 }
 
 .btn-success {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #4caf50;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #4caf50;
 }
 .btn-success:hover {
-  background-color: rgb(92.2011952191, 184.2988047809, 95.922310757);
+    background-color: rgb(92.2011952191, 184.2988047809, 95.922310757);
 }
 
 .btn-outlined-success {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #4caf50;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #4caf50;
 }
 .btn-outlined-success:hover {
-  background-color: #4caf50;
+    background-color: #4caf50;
 }
 
 .btn-complement-success {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #4caf50;
-  color: rgb(238.3466135458, 216.6533864542, 237.4701195219);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #4caf50;
+    color: rgb(238.3466135458, 216.6533864542, 237.4701195219);
 }
 .btn-complement-success:hover {
-  color: #4caf50;
-  background-color: rgb(238.3466135458, 216.6533864542, 237.4701195219);
+    color: #4caf50;
+    background-color: rgb(238.3466135458, 216.6533864542, 237.4701195219);
 }
 
 .btn-warning {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ff9800;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ff9800;
 }
 .btn-warning:hover {
-  background-color: rgb(255, 162.3, 25.5);
+    background-color: rgb(255, 162.3, 25.5);
 }
 
 .btn-outlined-warning {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #ff9800;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ff9800;
 }
 .btn-outlined-warning:hover {
-  background-color: #ff9800;
+    background-color: #ff9800;
 }
 
 .btn-complement-warning {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ff9800;
-  color: rgb(204, 224.6, 255);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ff9800;
+    color: rgb(204, 224.6, 255);
 }
 .btn-complement-warning:hover {
-  color: #ff9800;
-  background-color: rgb(204, 224.6, 255);
+    color: #ff9800;
+    background-color: rgb(204, 224.6, 255);
 }
 
 .btn-btn-danger {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #d32f2f;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #d32f2f;
 }
 .btn-btn-danger:hover {
-  background-color: rgb(215.4523809524, 68.0476190476, 68.0476190476);
+    background-color: rgb(215.4523809524, 68.0476190476, 68.0476190476);
 }
 
 .btn-outlined-btn-danger {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #d32f2f;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #d32f2f;
 }
 .btn-outlined-btn-danger:hover {
-  background-color: #d32f2f;
+    background-color: #d32f2f;
 }
 
 .btn-complement-btn-danger {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #d32f2f;
-  color: rgb(215.380952381, 246.619047619, 246.619047619);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #d32f2f;
+    color: rgb(215.380952381, 246.619047619, 246.619047619);
 }
 .btn-complement-btn-danger:hover {
-  color: #d32f2f;
-  background-color: rgb(215.380952381, 246.619047619, 246.619047619);
+    color: #d32f2f;
+    background-color: rgb(215.380952381, 246.619047619, 246.619047619);
 }
 
 .btn-btn-primary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #1976d2;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #1976d2;
 }
 .btn-btn-primary:hover {
-  background-color: rgb(32.0425531915, 130.7808510638, 228.4574468085);
+    background-color: rgb(32.0425531915, 130.7808510638, 228.4574468085);
 }
 
 .btn-outlined-btn-primary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #1976d2;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #1976d2;
 }
 .btn-outlined-btn-primary:hover {
-  background-color: #1976d2;
+    background-color: #1976d2;
 }
 
 .btn-complement-btn-primary {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #1976d2;
-  color: rgb(247.4468085106, 219.3489361702, 191.5531914894);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #1976d2;
+    color: rgb(247.4468085106, 219.3489361702, 191.5531914894);
 }
 .btn-complement-btn-primary:hover {
-  color: #1976d2;
-  background-color: rgb(247.4468085106, 219.3489361702, 191.5531914894);
+    color: #1976d2;
+    background-color: rgb(247.4468085106, 219.3489361702, 191.5531914894);
 }
 
 .btn-btn-success {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #388e3c;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #388e3c;
 }
 .btn-btn-success:hover {
-  background-color: rgb(63.2121212121, 160.2878787879, 67.7272727273);
+    background-color: rgb(63.2121212121, 160.2878787879, 67.7272727273);
 }
 
 .btn-outlined-btn-success {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #ffffff;
-  border: 1px solid #388e3c;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 1px solid #388e3c;
 }
 .btn-outlined-btn-success:hover {
-  background-color: #388e3c;
+    background-color: #388e3c;
 }
 
 .btn-complement-btn-success {
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #388e3c;
-  color: rgb(224.4545454545, 177.5454545455, 222.2727272727);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #388e3c;
+    color: rgb(224.4545454545, 177.5454545455, 222.2727272727);
 }
 .btn-complement-btn-success:hover {
-  color: #388e3c;
-  background-color: rgb(224.4545454545, 177.5454545455, 222.2727272727);
+    color: #388e3c;
+    background-color: rgb(224.4545454545, 177.5454545455, 222.2727272727);
 }
 
 .p-0 {
-  padding: 0;
+    padding: 0;
 }
 
 .pt-0 {
-  padding-top: 0;
+    padding-top: 0;
 }
 
 .pb-0 {
-  padding-bottom: 0;
+    padding-bottom: 0;
 }
 
 .pl-0 {
-  padding-left: 0;
+    padding-left: 0;
 }
 
 .pr-0 {
-  padding-right: 0;
+    padding-right: 0;
 }
 
 .p-1 {
-  padding: 0.125rem;
+    padding: 0.125rem;
 }
 
 .pt-1 {
-  padding-top: 0.125rem;
+    padding-top: 0.125rem;
 }
 
 .pb-1 {
-  padding-bottom: 0.125rem;
+    padding-bottom: 0.125rem;
 }
 
 .pl-1 {
-  padding-left: 0.125rem;
+    padding-left: 0.125rem;
 }
 
 .pr-1 {
-  padding-right: 0.125rem;
+    padding-right: 0.125rem;
 }
 
 .p-2 {
-  padding: 0.25rem;
+    padding: 0.25rem;
 }
 
 .pt-2 {
-  padding-top: 0.25rem;
+    padding-top: 0.25rem;
 }
 
 .pb-2 {
-  padding-bottom: 0.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .pl-2 {
-  padding-left: 0.25rem;
+    padding-left: 0.25rem;
 }
 
 .pr-2 {
-  padding-right: 0.25rem;
+    padding-right: 0.25rem;
 }
 
 .p-3 {
-  padding: 0.5rem;
+    padding: 0.5rem;
 }
 
 .pt-3 {
-  padding-top: 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .pb-3 {
-  padding-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .pl-3 {
-  padding-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .pr-3 {
-  padding-right: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .p-4 {
-  padding: 0.75rem;
+    padding: 0.75rem;
 }
 
 .pt-4 {
-  padding-top: 0.75rem;
+    padding-top: 0.75rem;
 }
 
 .pb-4 {
-  padding-bottom: 0.75rem;
+    padding-bottom: 0.75rem;
 }
 
 .pl-4 {
-  padding-left: 0.75rem;
+    padding-left: 0.75rem;
 }
 
 .pr-4 {
-  padding-right: 0.75rem;
+    padding-right: 0.75rem;
 }
 
 .p-5 {
-  padding: 1rem;
+    padding: 1rem;
 }
 
 .pt-5 {
-  padding-top: 1rem;
+    padding-top: 1rem;
 }
 
 .pb-5 {
-  padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .pl-5 {
-  padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 .pr-5 {
-  padding-right: 1rem;
+    padding-right: 1rem;
 }
 
 .p-6 {
-  padding: 1.25rem;
+    padding: 1.25rem;
 }
 
 .pt-6 {
-  padding-top: 1.25rem;
+    padding-top: 1.25rem;
 }
 
 .pb-6 {
-  padding-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 
 .pl-6 {
-  padding-left: 1.25rem;
+    padding-left: 1.25rem;
 }
 
 .pr-6 {
-  padding-right: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .p-7 {
-  padding: 1.5rem;
+    padding: 1.5rem;
 }
 
 .pt-7 {
-  padding-top: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .pb-7 {
-  padding-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 .pl-7 {
-  padding-left: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .pr-7 {
-  padding-right: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .p-8 {
-  padding: 1.75rem;
+    padding: 1.75rem;
 }
 
 .pt-8 {
-  padding-top: 1.75rem;
+    padding-top: 1.75rem;
 }
 
 .pb-8 {
-  padding-bottom: 1.75rem;
+    padding-bottom: 1.75rem;
 }
 
 .pl-8 {
-  padding-left: 1.75rem;
+    padding-left: 1.75rem;
 }
 
 .pr-8 {
-  padding-right: 1.75rem;
+    padding-right: 1.75rem;
 }
 
 .p-9 {
-  padding: 2rem;
+    padding: 2rem;
 }
 
 .pt-9 {
-  padding-top: 2rem;
+    padding-top: 2rem;
 }
 
 .pb-9 {
-  padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .pl-9 {
-  padding-left: 2rem;
+    padding-left: 2rem;
 }
 
 .pr-9 {
-  padding-right: 2rem;
+    padding-right: 2rem;
 }
 
 .p-10 {
-  padding: 2.5rem;
+    padding: 2.5rem;
 }
 
 .pt-10 {
-  padding-top: 2.5rem;
+    padding-top: 2.5rem;
 }
 
 .pb-10 {
-  padding-bottom: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .pl-10 {
-  padding-left: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 .pr-10 {
-  padding-right: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 .p-11 {
-  padding: 3rem;
+    padding: 3rem;
 }
 
 .pt-11 {
-  padding-top: 3rem;
+    padding-top: 3rem;
 }
 
 .pb-11 {
-  padding-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 
 .pl-11 {
-  padding-left: 3rem;
+    padding-left: 3rem;
 }
 
 .pr-11 {
-  padding-right: 3rem;
+    padding-right: 3rem;
 }
 
 .p-12 {
-  padding: 3.5rem;
+    padding: 3.5rem;
 }
 
 .pt-12 {
-  padding-top: 3.5rem;
+    padding-top: 3.5rem;
 }
 
 .pb-12 {
-  padding-bottom: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .pl-12 {
-  padding-left: 3.5rem;
+    padding-left: 3.5rem;
 }
 
 .pr-12 {
-  padding-right: 3.5rem;
+    padding-right: 3.5rem;
 }
 
 .p-14 {
-  padding: 4rem;
+    padding: 4rem;
 }
 
 .pt-14 {
-  padding-top: 4rem;
+    padding-top: 4rem;
 }
 
 .pb-14 {
-  padding-bottom: 4rem;
+    padding-bottom: 4rem;
 }
 
 .pl-14 {
-  padding-left: 4rem;
+    padding-left: 4rem;
 }
 
 .pr-14 {
-  padding-right: 4rem;
+    padding-right: 4rem;
 }
 
 .p-16 {
-  padding: 5rem;
+    padding: 5rem;
 }
 
 .pt-16 {
-  padding-top: 5rem;
+    padding-top: 5rem;
 }
 
 .pb-16 {
-  padding-bottom: 5rem;
+    padding-bottom: 5rem;
 }
 
 .pl-16 {
-  padding-left: 5rem;
+    padding-left: 5rem;
 }
 
 .pr-16 {
-  padding-right: 5rem;
+    padding-right: 5rem;
 }
 
 .p-18 {
-  padding: 6rem;
+    padding: 6rem;
 }
 
 .pt-18 {
-  padding-top: 6rem;
+    padding-top: 6rem;
 }
 
 .pb-18 {
-  padding-bottom: 6rem;
+    padding-bottom: 6rem;
 }
 
 .pl-18 {
-  padding-left: 6rem;
+    padding-left: 6rem;
 }
 
 .pr-18 {
-  padding-right: 6rem;
+    padding-right: 6rem;
 }
 
 .m-0 {
-  margin: 0;
+    margin: 0;
 }
 
 .mt-0 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .mb-0 {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .ml-0 {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 .mr-0 {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .m-1 {
-  margin: 0.125rem;
+    margin: 0.125rem;
 }
 
 .mt-1 {
-  margin-top: 0.125rem;
+    margin-top: 0.125rem;
 }
 
 .mb-1 {
-  margin-bottom: 0.125rem;
+    margin-bottom: 0.125rem;
 }
 
 .ml-1 {
-  margin-left: 0.125rem;
+    margin-left: 0.125rem;
 }
 
 .mr-1 {
-  margin-right: 0.125rem;
+    margin-right: 0.125rem;
 }
 
 .m-2 {
-  margin: 0.25rem;
+    margin: 0.25rem;
 }
 
 .mt-2 {
-  margin-top: 0.25rem;
+    margin-top: 0.25rem;
 }
 
 .mb-2 {
-  margin-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .ml-2 {
-  margin-left: 0.25rem;
+    margin-left: 0.25rem;
 }
 
 .mr-2 {
-  margin-right: 0.25rem;
+    margin-right: 0.25rem;
 }
 
 .m-3 {
-  margin: 0.5rem;
+    margin: 0.5rem;
 }
 
 .mt-3 {
-  margin-top: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .mb-3 {
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .ml-3 {
-  margin-left: 0.5rem;
+    margin-left: 0.5rem;
 }
 
 .mr-3 {
-  margin-right: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .m-4 {
-  margin: 1rem;
+    margin: 1rem;
 }
 
 .mt-4 {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .mb-4 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .ml-4 {
-  margin-left: 1rem;
+    margin-left: 1rem;
 }
 
 .mr-4 {
-  margin-right: 1rem;
+    margin-right: 1rem;
 }
 
 .m-5 {
-  margin: 1.25rem;
+    margin: 1.25rem;
 }
 
 .mt-5 {
-  margin-top: 1.25rem;
+    margin-top: 1.25rem;
 }
 
 .mb-5 {
-  margin-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 .ml-5 {
-  margin-left: 1.25rem;
+    margin-left: 1.25rem;
 }
 
 .mr-5 {
-  margin-right: 1.25rem;
+    margin-right: 1.25rem;
 }
 
 .m-6 {
-  margin: 1.5rem;
+    margin: 1.5rem;
 }
 
 .mt-6 {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .mb-6 {
-  margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .ml-6 {
-  margin-left: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .mr-6 {
-  margin-right: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .m-7 {
-  margin: 1.75rem;
+    margin: 1.75rem;
 }
 
 .mt-7 {
-  margin-top: 1.75rem;
+    margin-top: 1.75rem;
 }
 
 .mb-7 {
-  margin-bottom: 1.75rem;
+    margin-bottom: 1.75rem;
 }
 
 .ml-7 {
-  margin-left: 1.75rem;
+    margin-left: 1.75rem;
 }
 
 .mr-7 {
-  margin-right: 1.75rem;
+    margin-right: 1.75rem;
 }
 
 .m-8 {
-  margin: 2rem;
+    margin: 2rem;
 }
 
 .mt-8 {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .mb-8 {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .ml-8 {
-  margin-left: 2rem;
+    margin-left: 2rem;
 }
 
 .mr-8 {
-  margin-right: 2rem;
+    margin-right: 2rem;
 }
 
 .m-9 {
-  margin: 2.5rem;
+    margin: 2.5rem;
 }
 
 .mt-9 {
-  margin-top: 2.5rem;
+    margin-top: 2.5rem;
 }
 
 .mb-9 {
-  margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .ml-9 {
-  margin-left: 2.5rem;
+    margin-left: 2.5rem;
 }
 
 .mr-9 {
-  margin-right: 2.5rem;
+    margin-right: 2.5rem;
 }
 
 .m-10 {
-  margin: 3rem;
+    margin: 3rem;
 }
 
 .mt-10 {
-  margin-top: 3rem;
+    margin-top: 3rem;
 }
 
 .mb-10 {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .ml-10 {
-  margin-left: 3rem;
+    margin-left: 3rem;
 }
 
 .mr-10 {
-  margin-right: 3rem;
+    margin-right: 3rem;
 }
 
 .m-11 {
-  margin: 3.5rem;
+    margin: 3.5rem;
 }
 
 .mt-11 {
-  margin-top: 3.5rem;
+    margin-top: 3.5rem;
 }
 
 .mb-11 {
-  margin-bottom: 3.5rem;
+    margin-bottom: 3.5rem;
 }
 
 .ml-11 {
-  margin-left: 3.5rem;
+    margin-left: 3.5rem;
 }
 
 .mr-11 {
-  margin-right: 3.5rem;
+    margin-right: 3.5rem;
 }
 
 .m-12 {
-  margin: 4rem;
+    margin: 4rem;
 }
 
 .mt-12 {
-  margin-top: 4rem;
+    margin-top: 4rem;
 }
 
 .mb-12 {
-  margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .ml-12 {
-  margin-left: 4rem;
+    margin-left: 4rem;
 }
 
 .mr-12 {
-  margin-right: 4rem;
+    margin-right: 4rem;
 }
 
 .m-14 {
-  margin: 5rem;
+    margin: 5rem;
 }
 
 .mt-14 {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 .mb-14 {
-  margin-bottom: 5rem;
+    margin-bottom: 5rem;
 }
 
 .ml-14 {
-  margin-left: 5rem;
+    margin-left: 5rem;
 }
 
 .mr-14 {
-  margin-right: 5rem;
+    margin-right: 5rem;
 }
 
 .m-16 {
-  margin: 6rem;
+    margin: 6rem;
 }
 
 .mt-16 {
-  margin-top: 6rem;
+    margin-top: 6rem;
 }
 
 .mb-16 {
-  margin-bottom: 6rem;
+    margin-bottom: 6rem;
 }
 
 .ml-16 {
-  margin-left: 6rem;
+    margin-left: 6rem;
 }
 
 .mr-16 {
-  margin-right: 6rem;
+    margin-right: 6rem;
 }
 
 .o-10 {
-  opacity: 0.1;
+    opacity: 0.1;
 }
 
 .o-20 {
-  opacity: 0.2;
+    opacity: 0.2;
 }
 
 .o-30 {
-  opacity: 0.3;
+    opacity: 0.3;
 }
 
 .o-40 {
-  opacity: 0.4;
+    opacity: 0.4;
 }
 
 .o-50 {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .o-60 {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .o-70 {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .o-80 {
-  opacity: 0.8;
+    opacity: 0.8;
 }
 
 .o-90 {
-  opacity: 0.9;
+    opacity: 0.9;
 }
 
 .o-100 {
-  opacity: 1;
+    opacity: 1;
 }
 
 .font-xm {
-  font-size: 0.75rem;
+    font-size: 0.75rem;
 }
 
 .font-sm {
-  font-size: 0.875rem;
+    font-size: 0.875rem;
 }
 
 .font-base {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .font-lg {
-  font-size: 1.25rem;
+    font-size: 1.25rem;
 }
 
 .font-xl {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
 
-.font-xxl {
-  font-size: 1.75rem;
+.font-2xl {
+    font-size: 1.75rem;
 }
 
 .font-3xl {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 
 .font-4xl {
-  font-size: 2.25rem;
+    font-size: 2.25rem;
 }
 
 .font-5xl {
-  font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
 .font-6xl {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 .font-7xl {
-  font-size: 3.5rem;
+    font-size: 3.5rem;
 }
 
 .font-8xl {
-  font-size: 4rem;
+    font-size: 4rem;
 }
 
 /*---------------------------- END OF SECTION ----------------------------*/
 /* SECTION: Header part start */
 .header_part {
-  height: 32px;
-  background: #0872b9;
+    height: 32px;
+    background: #0872b9;
 }
 .header_part .header_text {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
 }
 .header_part .header_text p {
-  color: #f1f1f1;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 32px;
+    color: #f1f1f1;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
 }
 .header_part .header_icon {
-  width: 50%;
-  float: left;
-  text-align: right;
+    width: 50%;
+    float: left;
+    text-align: right;
 }
 .header_part .header_icon a {
-  margin-left: 25px;
-  color: #f1f1f1;
-  font-size: 0.875rem;
-  line-height: 32px;
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    margin-left: 25px;
+    color: #f1f1f1;
+    font-size: 0.875rem;
+    line-height: 32px;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 .header_part .header_icon a:hover {
-  color: #555555;
+    color: #555555;
 }
 
 /* !SECTION Header part end */
 /* Menu part start */
 .menu_part {
-  height: 80px;
+    height: 80px;
 }
 
 .logo {
-  float: left;
-  width: 160px;
+    float: left;
+    width: 160px;
 }
 
 .logo a {
-  padding-top: 20px;
+    padding-top: 20px;
 }
 
 .main_menu {
-  float: left;
-  width: 800px;
+    float: left;
+    width: 800px;
 }
 
 .main_menu ul li {
-  float: left;
+    float: left;
 }
 
 .main_menu ul {
-  float: right;
+    float: right;
 }
 
 .main_menu ul li a {
-  color: #555555;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Myriad Pro";
-  margin-left: 15px;
-  line-height: 80px;
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    color: #555555;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: 'Myriad Pro';
+    margin-left: 15px;
+    line-height: 80px;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .main_menu ul li a:hover {
-  color: #0872b9;
+    color: #0872b9;
 }
 
 /* Menu part end */
 /* Banner part start */
 .banner_part {
-  background: url(../images/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 88px 0;
-  position: relative;
-  z-index: 1;
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 88px 0;
+    position: relative;
+    z-index: 1;
 }
 
 .banner_part:after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: -1;
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
 }
 
 .banner_text {
-  width: 460px;
-  float: right;
-  text-align: right;
+    width: 460px;
+    float: right;
+    text-align: right;
 }
 
 .banner_text h2 {
-  color: #ffffff;
-  font-size: 1.5rem;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
-  margin-bottom: -10px;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: -10px;
 }
 
 .banner_text h1 {
-  color: #ffffff;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-bottom: 12px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 12px;
 }
 
 .banner_text p {
-  color: #ffffff;
-  font-size: 0.75rem;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 24px;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
 }
 
 .banner_text a {
-  padding: 10px 20px;
-  border: 1px solid #ffffff;
-  margin-top: 30px;
-  margin-left: 15px;
-  color: #ffffff;
-  font-size: 0.875rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .banner_text a:hover {
-  background: #0872b9;
-  border-color: #0872b9;
+    background: #0872b9;
+    border-color: #0872b9;
 }
 
 /* Banner part end */
 /* About part start */
 .about_part {
-  padding: 60px 0;
-  text-align: center;
+    padding: 60px 0;
+    text-align: center;
 }
 
 .about_head h2 {
-  color: #555555;
-  font-size: 24px;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+    color: #555555;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .about_head {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .about_head img {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .about_img {
-  width: 390px;
-  float: left;
+    width: 390px;
+    float: left;
 }
 
 .about_text {
-  width: 570px;
-  float: left;
+    width: 570px;
+    float: left;
 }
 
 .about_inner {
-  padding-top: 40px;
+    padding-top: 40px;
 }
 
 .about_text p {
-  color: #0872b9;
-  font-size: 0.75rem;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 24px;
-  text-align: left;
-  padding-top: 45px;
-  padding-left: 20px;
+    color: #0872b9;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 45px;
+    padding-left: 20px;
 }
 
 .about_img img {
-  width: 100%;
+    width: 100%;
 }
 
 .about_text p span {
-  display: block;
-  padding-top: 25px;
+    display: block;
+    padding-top: 25px;
 }
 
 /* About part end */
 /* Service part start */
 .service_part {
-  padding: 0 0 60px;
-  text-align: center;
+    padding: 0 0 60px;
+    text-align: center;
 }
 
 .service_text {
-  width: 27.77%;
-  float: left;
-  padding: 50px 20px 20px;
-  background: #f1f1f1;
-  margin-right: 20px;
-  position: relative;
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    width: 27.77%;
+    float: left;
+    padding: 50px 20px 20px;
+    background: #f1f1f1;
+    margin-right: 20px;
+    position: relative;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .service_text h4 {
-  color: #555555;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+    color: #555555;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .service_text p {
-  color: #0872b9;
-  font-size: 0.75rem;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 24px;
-  padding-top: 10px;
+    color: #0872b9;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-top: 10px;
 }
 
 .service_text .service_icon {
-  width: 69px;
-  height: 69px;
-  background: #f1f1f1;
-  line-height: 69px;
-  border-radius: 1rem;
-  border: 2px solid #ffffff;
-  position: absolute;
-  left: 50%;
-  top: -37px;
-  transform: translateX(-50%);
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    width: 69px;
+    height: 69px;
+    background: #f1f1f1;
+    line-height: 69px;
+    border-radius: 1rem;
+    border: 2px solid #ffffff;
+    position: absolute;
+    left: 50%;
+    top: -37px;
+    transform: translateX(-50%);
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .service_text .service_icon::after {
-  position: absolute;
-  content: "";
-  left: -4px;
-  top: -4px;
-  width: 73px;
-  height: 73px;
-  border: 2px solid #ffffff;
-  border-radius: 1rem;
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    position: absolute;
+    content: '';
+    left: -4px;
+    top: -4px;
+    width: 73px;
+    height: 73px;
+    border: 2px solid #ffffff;
+    border-radius: 1rem;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .service_text .service_icon::before {
-  position: absolute;
-  content: "";
-  left: -7px;
-  top: -7px;
-  width: 75px;
-  height: 75px;
-  border: 4px solid #ffffff;
-  border-radius: base-border-radius;
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    width: 75px;
+    height: 75px;
+    border: 4px solid #ffffff;
+    border-radius: base-border-radius;
 }
 
 .service_inner {
-  padding-top: 68px;
+    padding-top: 68px;
 }
 
 .service_mar {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .service_text:hover .service_icon {
-  background: #5bc5f4;
+    background: #5bc5f4;
 }
 
 .service_text:hover .service_icon::after {
-  border-color: #5bc5f4;
+    border-color: #5bc5f4;
 }
 
 .service_text:hover {
-  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.26);
 }
 
 /* Service part end */
 /* Portfolio part start */
 .portfolio_part {
-  padding-bottom: 60px;
-  text-align: center;
+    padding-bottom: 60px;
+    text-align: center;
 }
 
 .port_img_main {
-  width: 23.43%;
-  float: left;
-  margin-right: 20px;
+    width: 23.43%;
+    float: left;
+    margin-right: 20px;
 }
 
 .port_inner {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .port_img_main .img_1 img {
-  width: 100%;
+    width: 100%;
 }
 
 .port_img_main .img_2 img {
-  width: 100%;
+    width: 100%;
 }
 
 .port_mar {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .port_img_main .img_1 {
-  margin-bottom: 20px;
-  position: relative;
+    margin-bottom: 20px;
+    position: relative;
 }
 
 .port_img_main .img_2 {
-  position: relative;
+    position: relative;
 }
 
 .port_img_main .img_1 .overly {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  transform: scale(0);
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: scale(0);
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .port_img_main .img_1 .overly a {
-  width: 40px;
-  height: 40px;
-  background: #5bc5f4;
-  border-radius: 1rem;
-  color: #ffffff;
-  line-height: 40px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(90deg);
+    width: 40px;
+    height: 40px;
+    background: #5bc5f4;
+    border-radius: 1rem;
+    color: #ffffff;
+    line-height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .port_img_main .img_2 .overly {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  transform: scale(0);
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: scale(0);
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .port_img_main .img_2 .overly a {
-  width: 40px;
-  height: 40px;
-  background: #5bc5f4;
-  border-radius: 1rem;
-  color: #ffffff;
-  line-height: 40px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%) rotate(90deg);
+    width: 40px;
+    height: 40px;
+    background: #5bc5f4;
+    border-radius: 1rem;
+    color: #ffffff;
+    line-height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .port_img_main .img_1:hover .overly {
-  transform: scale(1);
+    transform: scale(1);
 }
 
 .port_img_main .img_2:hover .overly {
-  transform: scale(1);
+    transform: scale(1);
 }
 
 /* Portfolio part end */
 /* Team part start */
 .team_part {
-  padding-bottom: 60px;
-  text-align: center;
+    padding-bottom: 60px;
+    text-align: center;
 }
 
 .team_main {
-  width: 23.43%;
-  float: left;
-  margin-right: 20px;
+    width: 23.43%;
+    float: left;
+    margin-right: 20px;
 }
 
 .team_inner {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .team_img {
-  position: relative;
-  overflow: hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 .team_img .overly {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 80px;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  transform: translateX(80px);
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: translateX(80px);
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .team_img img {
-  width: 100%;
+    width: 100%;
 }
 
 .team_img .overly ul li a {
-  width: 40px;
-  height: 40px;
-  border: 1px solid #ffffff;
-  line-height: 40px;
-  color: #ffffff;
-  border-radius: 1rem;
-  margin-bottom: 15px;
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    line-height: 40px;
+    color: #ffffff;
+    border-radius: 1rem;
+    margin-bottom: 15px;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .team_img .overly ul {
-  padding-top: 35px;
+    padding-top: 35px;
 }
 
 .team_img .overly ul li a:hover {
-  background: #5bc5f4;
-  border-color: #5bc5f4;
+    background: #5bc5f4;
+    border-color: #5bc5f4;
 }
 
 .team_mar {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .team_main:hover .team_img .overly {
-  transform: translateX(0);
+    transform: translateX(0);
 }
 
 .team_text h4 {
-  color: #555555;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  padding-top: 4px;
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    color: #555555;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-top: 4px;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .team_text p {
-  color: #0872b9;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
+    color: #0872b9;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
 }
 
 .team_main:hover .team_text h4 {
-  color: #5bc5f4;
+    color: #5bc5f4;
 }
 
 .team_main:hover .team_img {
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 
 /* Team part end */
 /* Testimonial part start */
 .testi_part {
-  padding-bottom: 60px;
-  text-align: center;
+    padding-bottom: 60px;
+    text-align: center;
 }
 
 .testi_inner {
-  width: 48.95%;
-  float: left;
-  margin-right: 20px;
+    width: 48.95%;
+    float: left;
+    margin-right: 20px;
 }
 
 .testi_text {
-  padding: 20px;
-  background: #f1f1f1;
-  position: relative;
+    padding: 20px;
+    background: #f1f1f1;
+    position: relative;
 }
 
 .testi_img {
-  padding-bottom: 36px;
+    padding-bottom: 36px;
 }
 
 .testi_main {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 .testi_text h4 {
-  color: #555555;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+    color: #555555;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
 .testi_text i {
-  color: #5bc5f4;
-  font-size: 0.75rem;
+    color: #5bc5f4;
+    font-size: 0.75rem;
 }
 
 .testi_text h5 {
-  color: #0872b9;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
+    color: #0872b9;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
 }
 
 .testi_text p {
-  color: #0872b9;
-  font-size: 0.75rem;
-  font-weight: 400;
-  font-family: "Oswald", sans-serif;
-  line-height: 24px;
+    color: #0872b9;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
 }
 
 .testi_mar {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .testi_text:after {
-  position: absolute;
-  content: "";
-  left: 50%;
-  top: -40px;
-  transform: translateX(-50%);
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid #f1f1f1;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: -40px;
+    transform: translateX(-50%);
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid #f1f1f1;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
 }
 
 /* Testimonial part end */
 /* Footer part start */
 .footer_top {
-  padding: 20px 0;
-  background: #555555;
+    padding: 20px 0;
+    background: #555555;
 }
 
 .footer_logo {
-  width: 25%;
-  float: left;
-  box-sizing: border-box;
-  padding-right: 20px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 20px;
 }
 
 .footer_contact {
-  width: 25%;
-  float: left;
-  box-sizing: border-box;
-  padding-right: 20px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 20px;
 }
 
 .footer_link {
-  width: 20%;
-  float: left;
-  box-sizing: border-box;
-  padding-right: 20px;
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 20px;
 }
 
 .footer_flicker {
-  width: 30%;
-  float: left;
-  box-sizing: border-box;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
 }
 
 .footer_logo p {
-  color: #f1f1f1;
-  font-size: 0.75rem;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 24px;
-  padding-top: 30px;
+    color: #f1f1f1;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-top: 30px;
 }
 
 .footer_logo p span {
-  display: block;
-  padding-top: 25px;
+    display: block;
+    padding-top: 25px;
 }
 
 .footer_contact h4 {
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  padding-bottom: 45px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 45px;
 }
 
 .footer_contact p {
-  color: #f1f1f1;
-  font-size: 0.75rem;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 24px;
-  padding-left: 45px;
-  position: relative;
+    color: #f1f1f1;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    padding-left: 45px;
+    position: relative;
 }
 
 .footer_contact p i {
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  background: #5bc5f4;
-  border-radius: 1rem;
-  position: absolute;
-  left: 0;
-  top: 10px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #5bc5f4;
+    border-radius: 1rem;
+    position: absolute;
+    left: 0;
+    top: 10px;
 }
 
 .footer_link h4 {
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  padding-bottom: 30px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
 }
 
 .footer_link ul {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
 }
 
 .footer_link ul li a {
-  color: #ffffff;
-  font-size: 0.75rem;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  line-height: 36px;
-  transition: all linear 0.4s;
-  -moz-transition: all linear 0.4s;
-  -o-transition: all linear 0.4s;
-  -ms-transition: all linear 0.4s;
-  -webkit-transition: all linear 0.4s;
+    color: #ffffff;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 36px;
+    transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
 
 .footer_link ul li a:hover {
-  color: #5bc5f4;
+    color: #5bc5f4;
 }
 
 .footer_flicker h4 {
-  color: #ffffff;
-  font-size: 1rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
-  padding-bottom: 45px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 45px;
 }
 
 .footer_flicker ul li {
-  width: 33.33%;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  box-sizing: border-box;
-  float: left;
+    width: 33.33%;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    float: left;
 }
 
 .footer_flicker ul li img {
-  width: 100%;
+    width: 100%;
 }
 
 .footer_bottom {
-  background: #555555;
-  padding: 15px 0;
-  text-align: center;
+    background: #555555;
+    padding: 15px 0;
+    text-align: center;
 }
 
 .footer_bottom p {
-  color: #f1f1f1;
-  font-size: 0.75rem;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
+    color: #f1f1f1;
+    font-size: 0.75rem;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
 }
 
 .footer_bottom p:hover span {
-  color: #5bc5f4;
+    color: #5bc5f4;
 }
 
 /* Footer part end */
